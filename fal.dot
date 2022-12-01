@@ -1,0 +1,304 @@
+digraph ArbreFal {
+
+  /*
+   * Caractéristiques globales
+   */
+
+  ranksep="0.5 equally";
+  node [ shape=box, style=striped ]
+
+
+  /*
+   * Gens
+   */
+
+
+  // Architecture ; Arts du spectacle ; Arts numériques ; Audiovisuel ;
+  // Beaux-Arts, Arts Plastiques
+
+  node [ fillcolor="dodgerblue2", fontcolor=black ]
+  "Nokia"                   [ label="\N\nGame Design Paris"                    ]
+  "TOM JagerFeeld"          [ label="\N\nBeaux-Arts Paris"                     ] // Maud JF
+
+
+  // BUT, DUT, BTS
+
+  node [ fillcolor="white", fontcolor=black ]
+  "Slimer"                  [ label="\N\nBTS Grenoble"                         ] // Anthony
+
+
+  // Chirurgie Dentaire
+
+  node [ fillcolor="darkorchid4", fontcolor=black ]
+  "Big Bisous"              [ label="\N\nDentaire Paris"                       ]
+  "Galopatetik"             [ label="\N\nDentaire Paris"                       ] // Ne pas contacter
+
+
+  // Écoles de commerce, gestion, communication, journalisme
+
+  node [ fillcolor="red:darkgreen", fontcolor=black ]
+  "Mathou"                  [ label="\N\nCommunication Reims"                  ] // Pas de surnom
+
+
+  // Droit
+
+  node [ fillcolor="red", fontcolor=black ]
+  "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ] // Lydia
+  "Ricola"                  [ label="\N\nDroit ?"                              ] // Alexandre Broult
+  "Vache6micJudas"          [ label="\N\nDroit Reims"                          ] // Nicolas
+  "VisseVersa"              [ label="\N\nDroit Grenoble"                       ] // Jérémy
+
+
+  // Sciences économiques, Gestion, IAE
+
+  node [ fillcolor="darkorange1", fontcolor=black ]
+  "Couscous Boulette"       [ label="\N\nÉco-Gestion Nice"                     ]
+
+
+  // Écoles d'ingénieurs
+
+  node [ fillcolor="blue3:black", fontcolor=white ]
+  "Absynthe"                [ label="\N\nIngé Nice"                            ]
+  "Bioshop"                 [ label="\N\nIngé Créteil"                         ]
+  "Dopler"                  [ label="\N\nIngé Grenoble"                        ] // Guillaume
+  "EquiNoX"                 [ label="\N\nIngé Grenoble"                        ] // Catherine
+  "GayTA"                   [ label="\N\nIPP"                                  ] // Camille
+  "Gringotts"               [ label="\N\nIngé Grenoble"                        ] // Alice
+  "Kiss"                    [ label="\N\nIngé Nice"                            ]
+  "Ludimime"                [ label="\N\nIPP"                                  ] // Diego
+  "Meme0TechNik"            [ label="\N\nIPP"                                  ] // Éric
+  "Molloss"                 [ label="\N\nIPP"                                  ]
+  "Petit Poney Rose"        [ label="\N\nIPP"                                  ]
+  "SthOtouxDouX"            [ label="\N\nIPP"                                  ] // moi mdr
+  "TOM Juan"                [ label="\N\nIngé Créteil"                         ] // Stéphane, Créateur des TOM
+  "Valjean"                 [ label="\N\nIngé Grenoble"                        ] // Bastien
+
+
+  // Lettres, Langues, Sciences humaines et Sciences sociales
+
+  node [ fillcolor="gold", fontcolor=black ]
+  "Kalamity"                [ label="\N\nJaune Grenoble"                       ] // Laetitia
+  "Lotus"                   [ label="\N\nJaune Grenoble"                       ]
+  "SeintX"                  [ label="\N\nJaune Grenoble"                       ] // Caroline
+  "YOLOndi"                 [ label="\N\nJaune Paris"                          ] // Cassandre
+
+
+  // Médecine
+
+  node [ fillcolor="red3", fontcolor=black ]
+  "AnecdhOt Surprix"        [ label="\N\nMédecine PO"                          ]
+  "Artilleriz Cantonais"    [ label="\N\nMédecine Bobigny"                     ]
+  "Diabsainthe"             [ label="\N\nMédecine PO"                          ]
+  "LBoy"                    [ label="\N\nMédecine ?"                           ]
+  "Loque Ness"              [ label="\N\nMédecine KB"                          ]
+  "Otiste2000"              [ label="\N\nMédecine Créteil"                     ]
+  "Rebelote"                [ label="\N\nMédecine Angers"                      ]
+  "RockquhOt SATfredi"      [ label="\N\nMédecine PO"                          ] // Romain
+  "TaspégiC"                [ label="\N\nMédecine Bobigny"                     ]
+  "Zaza"                    [ label="\N\nMédecine ?"                           ]
+
+
+  // Paramédical
+
+  node [ fillcolor="hotpink", fontcolor=black ]
+  "Knapis TOM"              [ label="\N\nParamed Créteil"                      ]
+  "Lapile"                  [ label="\N\nParamed ?"                            ]
+  "Le Cul d'ta Maman"       [ label="\N\nParamed Nice"                         ]
+  "Mallaury"                [ label="\N\nErgo ?"                               ]
+  "Messix"                  [ label="\N\nParamed Grenoble"                     ] // Marc
+  "Piericor"                [ label="\N\nParamed Nice"                         ]
+  "Pouet Pouet"             [ label="\N\nKiné ?"                               ] // Marcel
+  "Pédale"                  [ label="\N\nInfirmière Reims"                     ] // Elsa
+  "Rondoudou"               [ label="\N\nParamed Nice"                         ]
+  "Rozeme"                  [ label="\N\nParamed ?"                            ]
+  "Sperminaroze"            [ label="\N\nParamed ?"                            ]
+
+
+  // Pharmacie
+
+  node [ fillcolor="darkgreen", fontcolor=black ]
+  "Patocyte"                [ label="\N\nPharma Créteil"                       ]
+  "ScandalTreuse"           [ label="\N\nPharma PD"                            ] // Créatrice des Fées
+  "TOMtonnoir"              [ label="\N\nPharma Créteil"                       ]
+
+
+  // Sage-Femme
+
+  node [ fillcolor="deeppink4", fontcolor=white ]
+  "FeuFéeLeeY"              [ label="\N\nSage-Femme Paris"                     ] // Solange
+  "Fucks Bunny"             [ label="\N\nSage-Femme Paris"                     ] // Charly
+  "Féelin ONapalm"          [ label="\N\nSage-Femme Paris"                     ] // Pauline Eeou
+  "ThunderStuck"            [ label="\N\nSage-Femme Paris"                     ]
+
+
+  // Sciences
+
+  node [ fillcolor="darkviolet", fontcolor=black ]
+  "Alucard"                 [ label="\N\nSciences Grenoble"                    ]
+  "Auhazard"                [ label="\N\nSciences Paris"                       ]
+  "Autoroute"               [ label="\N\nSciences Nice"                        ]
+  "Casper"                  [ label="\N\nSciences Angers"                      ]
+  "CraKotte"                [ label="\N\nSciences Grenoble"                    ]
+  "Fritoupompri"            [ label="\N\nSciences Paris"                       ] // Séverin Pompom
+  "HGEL"                    [ label="\N\nSciences Strasbourg"                  ]
+  "KaleeSiX"                [ label="\N\nSciences Grenoble"                    ] // Élodie
+  "Klonti"                  [ label="\N\nSciences Paris"                       ]
+  "Mouillette"              [ label="\N\nSciences Paris"                       ]
+  "Mr l'Ambassadeur Droopy" [ label="\N\nSciences Paris"                       ]
+  "Peach"                   [ label="\N\nSciences Strasbourg"                  ]
+  "PingWinX"                [ label="\N\nSciences Grenoble"                    ] // Céline
+  "Raidred"                 [ label="\N\nSciences Angers"                      ]
+  "RamaDiane PutKassTOM"    [ label="\N\nSciences Paris"                       ]
+  "Saccharose"              [ label="\N\nSciences Grenoble"                    ] // Charline
+  "Spawwow"                 [ label="\N\nSciences Valence"                     ] // Willem
+  "Targayte"                [ label="\N\nSciences Angers"                      ]
+  "Tatayet"                 [ label="\N\nSciences Paris"                       ]
+
+
+  // Cas particuliers
+
+  node [ fillcolor="darkviolet:hotpink", fontcolor=black ]
+  "KDO"                     [ label="\N\nSciences/Paramed Strasbourg"          ]
+  "Maman Loup"              [ label="\N\nSciences/Paramed Strasbourg"          ]
+
+  node [ fillcolor="darkviolet:white", fontcolor=black ]
+  "Vésuvia"                 [ label="\N\nSciences/? Strasbourg"                ]
+
+  node [ fillcolor="darkviolet;.5:blue3:black", fontcolor=white ]
+  "DucoPute"                [ label="\N\nIngé ?"                               ] // Erwan Tocard
+
+
+  // Filière Inconnue
+
+  node [ fillcolor="black", fontcolor=white ]
+  "Bisounours"              [ label="\N\n?"                                    ]
+  "Bée"                     [ label="\N\n?"                                    ]
+  "Catapu(l)te"             [ label="\N\n? Nancy"                              ] // Alix
+  "Dorine"                  [ label="\N\n? Paris"                              ]
+  "Epiboom"                 [ label="\N\n?"                                    ]
+  "Guilleu"                 [ label="\N\n? Paris"                              ]
+  "Ketchupipe"              [ label="\N\n? Nice"                               ] // Aurore d'Hossegor
+  "Lapinsette"              [ label="\N\n? Angers"                             ]
+  "Papotin"                 [ label="\N\n?"                                    ]
+  "Redboule"                [ label="\N\n? Valence"                            ] // Séverine
+  "So Late"                 [ label="\N\n?"                                    ]
+
+
+  /*
+   * Années baptême (WIP)
+   */
+
+  {
+    node [shape=plaintext                                                 ]
+    "préhistoire" -> 2011 -> 2012 -> 2013 -> 2015 -> 2017 -> 2022 -> 2023
+  }
+
+  { rank=source; "préhistoire"; }
+  { rank=same; 2011; "GayTA"; }
+  { rank=same; 2012; "Fucks Bunny"; }
+  { rank=same; 2013; "RamaDiane PutKassTOM"; }
+  { rank=same; 2015; "Gringotts"; "TOM JagerFeeld"; }
+  { rank=same; 2017; "Meme0TechNik"; }
+  { rank=same; 2022; "EquiNoX"; "ThunderStuck"; }
+  { rank=same; 2023; "SthOtouxDouX"; }
+
+
+  /*
+   * Liens
+   */
+
+  "Absynthe"                -> "Couscous Boulette"
+  "Alucard"                 -> "Kalamity"
+  "Alucard"                 -> "Slimer"
+  "AnecdhOt Surprix"        -> "RockquhOt SATfredi"
+  "Artilleriz Cantonais"    -> "Rozeme"
+  "Auhazard"                -> "Molloss"
+  "Autoroute"               -> "Rondoudou"
+  "Big Bisous"              -> "ScandalTreuse"
+  "Bioshop"                 -> "TOM Juan"
+  "Bisounours"              -> "Redboule"
+  "Bée"                     -> "Messix"
+  "Casper"                  -> "Raidred"
+  "Catapu(l)te"             -> "VisseVersa"
+  "Couscous Boulette"       -> "Le Cul d'ta Maman"
+  "CraKotte"                -> "Slimer"
+  "Craziiiiii"              -> "VisseVersa"
+  "Diabsainthe"             -> "YOLOndi"
+  "Dopler"                  -> "Valjean"
+  "Dorine"                  -> "Molloss"
+  "DucoPute"                -> "RamaDiane PutKassTOM"
+  "Epiboom"                 -> "SeintX"
+  "EquiNoX"                 -> "SthOtouxDouX"
+  "FeuFéeLeeY"              -> "TOM JagerFeeld"
+  "Fritoupompri"            -> "Big Bisous"
+  "Fritoupompri"            -> "Fucks Bunny"
+  "Fucks Bunny"             -> "Féelin ONapalm"
+  "Féelin ONapalm"          -> "FeuFéeLeeY"
+  "Galopatetik"             -> "Fucks Bunny"
+  "GayTA"                   -> "Ludimime"
+  "Gringotts"               -> "EquiNoX"
+  "Guilleu"                 -> "Mouillette"
+  "HGEL"                    -> "Peach"
+  "KDO"                     -> "HGEL"
+  "Kalamity"                -> "Gringotts"
+  "KaleeSiX"                -> "PingWinX"
+  "Ketchupipe"              -> "Ludimime"
+  "Kiss"                    -> "Couscous Boulette"
+  "Klonti"                  -> "ScandalTreuse"
+  "Knapis TOM"              -> "RamaDiane PutKassTOM"
+  "LBoy"                    -> "DucoPute"
+  "LBoy"                    -> "Ricola"
+  "Lapile"                  -> "Ricola"
+  "Lapinsette"              -> "Raidred"
+  "Le Cul d'ta Maman"       -> "Ketchupipe"
+  "Loque Ness"              -> "RockquhOt SATfredi"
+  "Lotus"                   -> "Kalamity"
+  "Ludimime"                -> "FeuFéeLeeY"
+  "Mallaury"                -> "Catapu(l)te"
+  "Maman Loup"              -> "KDO"
+  "Mathou"                  -> "Pédale"
+  "Meme0TechNik"            -> "SthOtouxDouX"
+  "Messix"                  -> "KaleeSiX"
+  "Molloss"                 -> "GayTA"
+  "Molloss"                 -> "Petit Poney Rose"
+  "Mouillette"              -> "Auhazard"
+  "Mr l'Ambassadeur Droopy" -> "Auhazard"
+  "Nokia"                   -> "YOLOndi"
+  "Otiste2000"              -> "TOMtonnoir"
+  "Papotin"                 -> "Messix"
+  "Patocyte"                -> "TOMtonnoir"
+  "Peach"                   -> "Petit Poney Rose"
+  "Petit Poney Rose"        -> "GayTA"
+  "Piericor"                -> "Rondoudou"
+  "PingWinX"                -> "EquiNoX"
+  "Pouet Pouet"             -> "Catapu(l)te"
+  "Pédale"                  -> "ThunderStuck"
+  "Raidred"                 -> "Klonti"
+  "RamaDiane PutKassTOM"    -> "TOM JagerFeeld"
+  "Rebelote"                -> "Le Cul d'ta Maman"
+  "Redboule"                -> "Craziiiiii"
+  "Ricola"                  -> "DucoPute"
+  "RockquhOt SATfredi"      -> "ThunderStuck"
+  "Rondoudou"               -> "Ketchupipe"
+  "Rozeme"                  -> "Knapis TOM"
+  "Saccharose"              -> "Valjean"
+  "ScandalTreuse"           -> "Féelin ONapalm"
+  "SeintX"                  -> "KaleeSiX"
+  "Slimer"                  -> "SeintX"
+  "So Late"                 -> "Redboule"
+  "Spawwow"                 -> "Craziiiiii"
+  "Sperminaroze"            -> "Rozeme"
+  "TOM JagerFeeld"          -> "Meme0TechNik"
+  "TOM Juan"                -> "Knapis TOM"
+  "TOMtonnoir"              -> "TOM Juan"
+  "Targayte"                -> "Klonti"
+  "TaspégiC"                -> "Sperminaroze"
+  "Tatayet"                 -> "Mr l'Ambassadeur Droopy"
+  "ThunderStuck"            -> "SthOtouxDouX"
+  "Vache6micJudas"          -> "Pédale"
+  "Valjean"                 -> "Gringotts"
+  "VisseVersa"              -> "PingWinX"
+  "Vésuvia"                 -> "Maman Loup"
+  "YOLOndi"                 -> "Meme0TechNik"
+  "Zaza"                    -> "Catapu(l)te"
+}

@@ -1,0 +1,31 @@
+BEGIN {
+  // Starting node
+  string start = ARGV[0];
+
+  // Direction to look for (0: up, 1: down)
+  int direction = ARGV[1];
+}
+
+BEG_G {
+  graph_t g = graph("subfal", "d");
+
+  if (direction == 0)
+    $tvtype = TV_rev;
+  else if (direction == 1)
+    $tvtype = TV_fwd;
+
+  $tvnext = NULL;
+  $tvroot = node($, start);
+}
+
+N {
+  copy(g, $);
+}
+
+E {
+  copy(g, $);
+}
+
+END_G {
+  write(g);
+}

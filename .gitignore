@@ -1,0 +1,5 @@
+# PNG Outputs
+*.png
+
+# Intemrediate files
+*.int
