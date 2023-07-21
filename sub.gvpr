@@ -1,0 +1,83 @@
+BEGIN {
+  // Starting node
+  string start = ARGV[0];
+
+  // Direction to look for (0: up, 1: down)
+  int direction = ARGV[1];
+}
+
+BEG_G {
+  graph_t res_g = graph("subfal", "d");
+  graph_t res_years_sg = graph("years", "d");
+  node_t last_year = NULL;
+
+  graph_t years_sg = isSubg($, "years");
+
+  if (direction == 0)
+    $tvtype = TV_rev;
+  else if (direction == 1)
+    $tvtype = TV_fwd;
+
+  $tvnext = node($, "2023");
+  $tvroot = node($, start);
+}
+
+N [$.meta != "year"] {
+  copy(res_g, $);
+}
+
+E [$.meta != "year"] {
+  copy(res_g, $);
+}
+
+// Preserve year data
+N [($.meta == "year") && ($.name != "préhistoire")] {
+  $tvnext = NULL;
+
+  graph_t year_sg = isSubg(years_sg, $.name);
+  graph_t res_sg = graph($.name, "d");
+
+  // Gather nodes from year subgraphs which are in resulting graph
+  node_t n;
+  for (n = fstnode(year_sg); n != NULL; n = nxtnode_sg(year_sg, n))
+    if (isNode(res_g, n.name))
+      copy(res_sg, n);
+
+  if (nNodes(res_sg) > 0)
+  {
+    if (last_year != NULL)
+    {
+      // Create edge between year nodes
+      node_t beg = node(res_years_sg, $.name);
+      node_t end = node(res_years_sg, last_year.name);
+      edge_sg(res_years_sg, beg, end, "");
+    }
+    last_year = $;
+
+    // Add year node to year subgraph
+    copy(res_sg, $);
+    // Clone subgraph to years subgraph
+    clone(res_years_sg, res_sg);
+    // Add rank attribute to subgraph
+    aset(subg(res_years_sg, res_sg.name), "rank", "same");
+  }
+}
+N [$.name == "préhistoire"] {
+  if (last_year != NULL)
+  {
+    // Create edge for first year node
+    node_t beg2 = node(res_years_sg, $.name);
+    node_t end2 = node(res_years_sg, last_year.name);
+    edge_sg(res_years_sg, beg2, end2, "");
+
+    // Set first year node's rank
+    graph_t first_year_sg = subg(res_years_sg, "");
+    subnode(first_year_sg, beg2);
+    aset(first_year_sg, "rank", "source");
+  }
+}
+
+END_G {
+  clone(res_g, res_years_sg);
+  write(res_g);
+}
