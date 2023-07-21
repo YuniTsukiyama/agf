@@ -17,21 +17,39 @@ digraph ArbreFal {
   // Beaux-Arts, Arts Plastiques
 
   node [ fillcolor="dodgerblue2", fontcolor=black ]
+  "Cracki"                  [ label="\N\nThéatre Rouen"                        ]
+  "Grs Bsx"                 [ label="\N\nArchitecture Grenoble"                ]
   "Nokia"                   [ label="\N\nGame Design Paris"                    ]
-  "TOM JagerFeeld"          [ label="\N\nBeaux-Arts Paris"                     ] // Maud JF
+  "TOM JagerFeeld"          [ label="\N\nBeaux-Arts Paris"                     ]
 
 
   // BUT, DUT, BTS
 
   node [ fillcolor="white", fontcolor=black ]
-  "Slimer"                  [ label="\N\nBTS Grenoble"                         ] // Anthony
+  "Absinthe"                [ label="\N\nIUT Nice"                             ]
+  "Dantach"                 [ label="\N\nBTS Lyon"                             ]
+  "Kinder"                  [ label="\N\nBTS Optique Grenoble"                 ]
+  "La Douve"                [ label="\N\nIUT Valence"                          ]
+  "Léo"                     [ label="\N\nIUT ?"                                ] // Probablement Grenoble
+  "SLIMEr"                  [ label="\N\nBTS Grenoble"                         ]
+  "Taz"                     [ label="\N\nIUT Grenoble"                         ]
+  "TiTang"                  [ label="\N\nIUT Valence"                          ]
+  "Toonies"                 [ label="\N\nBTS Valence"                          ]
+  "Vicking"                 [ label="\N\nIUT Grenoble"                         ]
+
+
+  // Classes Préparatoires
+
+  node [ fillcolor="saddlebrown", fontcolor=white ]
+  "Kuf"                     [ label="\N\nPrépa Metz"                           ]
 
 
   // Chirurgie Dentaire
 
   node [ fillcolor="darkorchid4", fontcolor=black ]
   "Big Bisous"              [ label="\N\nDentaire Paris"                       ]
-  "Galopatetik"             [ label="\N\nDentaire Paris"                       ] // Ne pas contacter
+  "Charles"                 [ label="\N\nDentaire Lyon"                        ]
+  "Galopatetik"             [ label="\N\nDentaire Paris"                       ]
 
 
   // Écoles de commerce, gestion, communication, journalisme
@@ -43,57 +61,118 @@ digraph ArbreFal {
   // Droit
 
   node [ fillcolor="red", fontcolor=black ]
-  "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ] // Lydia
-  "Ricola"                  [ label="\N\nDroit ?"                              ] // Alexandre Broult
-  "Vache6micJudas"          [ label="\N\nDroit Reims"                          ] // Nicolas
-  "VisseVersa"              [ label="\N\nDroit Grenoble"                       ] // Jérémy
+  "Astrid"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
+  "Carole"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
+  "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ]
+  "Guignol"                 [ label="\N\nDroit Grenoble"                       ] // 1 seule PM
+  "Huggiz"                  [ label="\N\nDroit Grenoble"                       ]
+  "Pala"                    [ label="\N\nDroit Grenoble"                       ]
+  "Redboule"                [ label="\N\nDroit Valence"                        ]
+  "Ricola"                  [ label="\N\nDroit ?"                              ]
+  "Sherlock"                [ label="\N\nDroit Montpellier"                    ]
+  "Sophie"                  [ label="\N\nDroit Grenoble"                       ]
+  "Thanh"                   [ label="\N\nDroit Grenoble"                       ]
+  "Toad"                    [ label="\N\nDroit Grenoble"                       ]
+  "Vache6micJudas"          [ label="\N\nDroit Reims"                          ]
+  "VisseVersa"              [ label="\N\nDroit Grenoble"                       ]
 
 
   // Sciences économiques, Gestion, IAE
 
   node [ fillcolor="darkorange1", fontcolor=black ]
+  "Alcaline"                [ label="\N\nÉco Grenoble"                         ]
+  "Aurélie1"                [ label="\N\nÉco Grenoble"                         ]
+  "CHArette"                [ label="\N\nÉco Grenoble"                         ]
   "Couscous Boulette"       [ label="\N\nÉco-Gestion Nice"                     ]
+  "Damienne"                [ label="\N\nÉco Grenoble"                         ]
+  "Oupsm"                   [ label="\N\nÉco Grenoble"                         ] // Filière pas sûre
+  "La Méloche"              [ label="\N\nÉco Grenoble"                         ]
+  "Ramucho"                 [ label="\N\nÉco Grenoble"                         ]
+  "Romain1"                 [ label="\N\nÉco Grenoble"                         ]
+  "SNCF"                    [ label="\N\nÉco Grenoble"                         ] // SNCéFix ?
+  "Valentine"               [ label="\N\nÉco Grenoble"                         ]
+  "VDMKinectX"              [ label="\N\nÉco Grenoble"                         ]
+  "aKpouleseau"             [ label="\N\nÉco ?"                                ] // Probablement Grenoble
 
 
   // Écoles d'ingénieurs
 
   node [ fillcolor="blue3:black", fontcolor=white ]
   "Absynthe"                [ label="\N\nIngé Nice"                            ]
+  "Achess"                  [ label="\N\nIngé Grenoble"                        ] // Un ami
+  "Alt F4"                  [ label="\N\nIngé Grenoble"                        ]
+  "Balthazar"               [ label="\N\nIngé Grenoble"                        ]
+  "Bigbisou"                [ label="\N\nIngé Grenoble"                        ]
   "Bioshop"                 [ label="\N\nIngé Créteil"                         ]
-  "Dopler"                  [ label="\N\nIngé Grenoble"                        ] // Guillaume
-  "EquiNoX"                 [ label="\N\nIngé Grenoble"                        ] // Catherine
-  "GayTA"                   [ label="\N\nIPP"                                  ] // Camille
-  "Gringotts"               [ label="\N\nIngé Grenoble"                        ] // Alice
+  "Deuz"                    [ label="\N\nIngé Grenoble"                        ]
+  "Dopler"                  [ label="\N\nIngé Grenoble"                        ]
+  "Durix"                   [ label="\N\nIngé Grenoble"                        ]
+  "Dédé"                    [ label="\N\nIngé Grenoble"                        ]
+  "EquiNoX"                 [ label="\N\nIngé Grenoble"                        ]
+  "GayTA"                   [ label="\N\nIPP"                                  ]
+  "Gringotts"               [ label="\N\nIngé Grenoble"                        ]
+  "HP"                      [ label="\N\nIngé Grenoble"                        ]
   "Kiss"                    [ label="\N\nIngé Nice"                            ]
-  "Ludimime"                [ label="\N\nIPP"                                  ] // Diego
-  "Meme0TechNik"            [ label="\N\nIPP"                                  ] // Éric
+  "Ludimime"                [ label="\N\nIPP"                                  ]
+  "Manus"                   [ label="\N\nIngé Grenoble"                        ]
+  "Meme0TechNik"            [ label="\N\nIPP"                                  ]
   "Molloss"                 [ label="\N\nIPP"                                  ]
+  "Mr Tout Nu"              [ label="\N\nIngé Grenoble"                        ]
+  "Pam"                     [ label="\N\nIngé Grenoble"                        ]
   "Petit Poney Rose"        [ label="\N\nIPP"                                  ]
-  "SthOtouxDouX"            [ label="\N\nIPP"                                  ] // moi mdr
-  "TOM Juan"                [ label="\N\nIngé Créteil"                         ] // Stéphane, Créateur des TOM
-  "Valjean"                 [ label="\N\nIngé Grenoble"                        ] // Bastien
+  "Pinocchio"               [ label="\N\nIngé Grenoble"                        ]
+  "Pippin"                  [ label="\N\nIngé Grenoble"                        ]
+  "Seb"                     [ label="\N\nIngé Grenoble"                        ]
+  "SthOtouxDouX"            [ label="\N\nIPP"                                  ]
+  "TOM Juan"                [ label="\N\nIngé Créteil"                         ] // Créateur des TOM
+  "Valjean"                 [ label="\N\nIngé Grenoble"                        ]
+  "Worms"                   [ label="\N\nIngé Grenoble"                        ]
 
 
   // Lettres, Langues, Sciences humaines et Sciences sociales
 
   node [ fillcolor="gold", fontcolor=black ]
-  "Kalamity"                [ label="\N\nJaune Grenoble"                       ] // Laetitia
-  "Lotus"                   [ label="\N\nJaune Grenoble"                       ]
-  "SeintX"                  [ label="\N\nJaune Grenoble"                       ] // Caroline
-  "YOLOndi"                 [ label="\N\nJaune Paris"                          ] // Cassandre
+  "Catapu(l)te"             [ label="\N\nLettres Nancy"                        ] // Baptisée adm publique ?
+  "Clito"                   [ label="\N\nJaune Grenoble"                       ]
+  "Epi Boom"                [ label="\N\nPsycho Grenoble"                      ]
+  "Kalamity"                [ label="\N\nSocio Grenoble"                       ]
+  "KetchuPipe"              [ label="\N\nJaune Nice"                           ] // Info-comm Nice/Paris
+  "LaVieille"               [ label="\N\nJaune Grenoble"                       ]
+  "Lotus"                   [ label="\N\nPsycho Grenoble"                      ] // 1 seul PM
+  "Napiléon"                [ label="\N\nHistoire Grenoble"                    ]
+  "Uno"                     [ label="\N\nJaune Grenoble"                       ]
+  "Père Chartreux"          [ label="\N\nJaune Grenoble"                       ] // rma
+  "SeintX"                  [ label="\N\nPsycho Grenoble"                      ]
+  "YOLOndi"                 [ label="\N\nJaune Paris"                          ]
 
 
   // Médecine
 
   node [ fillcolor="red3", fontcolor=black ]
   "AnecdhOt Surprix"        [ label="\N\nMédecine PO"                          ]
+  "Anne-Sophisme"           [ label="\N\nMédecine ?"                           ]
   "Artilleriz Cantonais"    [ label="\N\nMédecine Bobigny"                     ]
-  "Diabsainthe"             [ label="\N\nMédecine PO"                          ]
+  "Aurélie2"                [ label="\N\nMédecine Grenoble"                    ]
+  "Avrel"                   [ label="\N\nMédecine Grenoble"                    ]
+  "Claire"                  [ label="\N\nMédecine Grenoble"                    ] // Ville probable
+  "DiabSainthe"             [ label="\N\nMédecine PO"                          ]
+  "Gaëlle"                  [ label="\N\nMédecine Grenoble"                    ]
+  "Guillaume"               [ label="\N\nMédecine ?"                           ]
+  "Jason"                   [ label="\N\nMédecine Nîmes"                       ]
+  "Jeff"                    [ label="\N\nMédecine Paris"                       ]
+  "Kaporal"                 [ label="\N\nMédecine ?"                           ] // Probablement Grenoble
+  "L'infirme"               [ label="\N\nMédecine Grenoble"                    ]
+  "L'orphelin"              [ label="\N\nMédecine Grenoble"                    ] // Autre PM inconnu
   "LBoy"                    [ label="\N\nMédecine ?"                           ]
+  "Lili"                    [ label="\N\nMédecine ?"                           ] // Probablement Grenoble
   "Loque Ness"              [ label="\N\nMédecine KB"                          ]
+  "Majorett"                [ label="\N\nMédecine Marseille"                   ]
   "Otiste2000"              [ label="\N\nMédecine Créteil"                     ]
+  "Pumba"                   [ label="\N\nMédecine Nancy"                       ]
   "Rebelote"                [ label="\N\nMédecine Angers"                      ]
-  "RockquhOt SATfredi"      [ label="\N\nMédecine PO"                          ] // Romain
+  "RockquhOt SATfredi"      [ label="\N\nMédecine PO"                          ]
+  "Rodrigo"                 [ label="\N\nMédecine ?"                           ]
+  "Solumedor"               [ label="\N\nMédecine PO"                          ]
   "TaspégiC"                [ label="\N\nMédecine Bobigny"                     ]
   "Zaza"                    [ label="\N\nMédecine ?"                           ]
 
@@ -101,23 +180,38 @@ digraph ArbreFal {
   // Paramédical
 
   node [ fillcolor="hotpink", fontcolor=black ]
+  "Audrey"                  [ label="\N\nInf Grenoble"                         ]
+  "Fanfoué"                 [ label="\N\nInf Grenoble"                         ]
   "Knapis TOM"              [ label="\N\nParamed Créteil"                      ]
+  "Lalane"                  [ label="\N\nPrépa Inf Grenoble"                   ] // Ville pas sûre
   "Lapile"                  [ label="\N\nParamed ?"                            ]
   "Le Cul d'ta Maman"       [ label="\N\nParamed Nice"                         ]
-  "Mallaury"                [ label="\N\nErgo ?"                               ]
-  "Messix"                  [ label="\N\nParamed Grenoble"                     ] // Marc
+  "Mallaury"                [ label="\N\nErgo Nancy"                           ]
+  "Marcel Pouet Pouet"      [ label="\N\nKiné ?"                               ]
+  "MessiX"                  [ label="\N\nManip' Radio Grenoble"                ]
+  "Moustache"               [ label="\N\nInf Grenoble"                         ]
+  "Mèche"                   [ label="\N\nInf Grenoble"                         ]
+  "Numerobis"               [ label="\N\nInf Grenoble"                         ]
+  "Papotin"                 [ label="\N\nManip' Radio ?"                       ]
   "Piericor"                [ label="\N\nParamed Nice"                         ]
-  "Pouet Pouet"             [ label="\N\nKiné ?"                               ] // Marcel
-  "Pédale"                  [ label="\N\nInfirmière Reims"                     ] // Elsa
-  "Rondoudou"               [ label="\N\nParamed Nice"                         ]
+  "Pipaille"                [ label="\N\nParamed Grenoble"                     ]
+  "Pédale"                  [ label="\N\nInf Reims"                            ]
+  "Rondoudou"               [ label="\N\nOrtho Nice"                           ]
   "Rozeme"                  [ label="\N\nParamed ?"                            ]
+  "Sandy"                   [ label="\N\nInf Grenoble"                         ]
   "Sperminaroze"            [ label="\N\nParamed ?"                            ]
+  "Terrine"                 [ label="\N\nInf Grenoble"                         ]
 
 
   // Pharmacie
 
   node [ fillcolor="darkgreen", fontcolor=black ]
+  "Ben(R)"                  [ label="\N\nPharma Grenoble"                      ]
+  "Béé"                     [ label="\N\nPharma Grenoble"                      ]
+  "Coin-Coin"               [ label="\N\nPharma Grenoble"                      ]
+  "Coline"                  [ label="\N\nPharma ?"                             ] // Probablement Grenoble
   "Patocyte"                [ label="\N\nPharma Créteil"                       ]
+  "Satanas"                 [ label="\N\nPharma Montpellier"                   ]
   "ScandalTreuse"           [ label="\N\nPharma PD"                            ] // Créatrice des Fées
   "TOMtonnoir"              [ label="\N\nPharma Créteil"                       ]
 
@@ -125,34 +219,77 @@ digraph ArbreFal {
   // Sage-Femme
 
   node [ fillcolor="deeppink4", fontcolor=white ]
-  "FeuFéeLeeY"              [ label="\N\nSage-Femme Paris"                     ] // Solange
-  "Fucks Bunny"             [ label="\N\nSage-Femme Paris"                     ] // Charly
-  "Féelin ONapalm"          [ label="\N\nSage-Femme Paris"                     ] // Pauline Eeou
+  "Artichaude"              [ label="\N\nSage-Femme Grenoble"                  ]
+  "Atol"                    [ label="\N\nSage-Femme ?"                         ] // Probablement Grenoble
+  "DigniTruc"               [ label="\N\nSage-Femme Grenoble"                  ]
+  "Douillette"              [ label="\N\nSage-Femme Grenoble"                  ]
+  "Eva"                     [ label="\N\nSage-Femme Grenoble"                  ]
+  "FeuFéeLeeY"              [ label="\N\nSage-Femme Paris"                     ]
+  "Freudette"               [ label="\N\nSage-Femme Grenoble"                  ]
+  "Fucks Bunny"             [ label="\N\nSage-Femme Paris"                     ]
+  "Féelin ONapalm"          [ label="\N\nSage-Femme Paris"                     ]
+  "Hénaff"                  [ label="\N\nSage-Femme Grenoble"                  ]
+  "Ken Park"                [ label="\N\nSage-Femme Grenoble"                  ]
+  "Mama"                    [ label="\N\nSage-Femme Grenoble"                  ]
+  "Matthieu"                [ label="\N\nSage-Femme Grenoble"                  ]
+  "Marie-Laure"             [ label="\N\nSage-Femme Grenoble"                  ]
+  "Raph"                    [ label="\N\nSage-Femme Grenoble"                  ]
+  "Smile"                   [ label="\N\nSage-Femme Grenoble"                  ]
+  "Spip"                    [ label="\N\nSage-Femme Grenoble"                  ]
   "ThunderStuck"            [ label="\N\nSage-Femme Paris"                     ]
 
 
   // Sciences
 
   node [ fillcolor="darkviolet", fontcolor=black ]
-  "Alucard"                 [ label="\N\nSciences Grenoble"                    ]
+  "AlucARD"                 [ label="\N\nSciences Grenoble"                    ]
+  "Amibe"                   [ label="\N\nSciences Grenoble"                    ] // Môman
   "Auhazard"                [ label="\N\nSciences Paris"                       ]
-  "Autoroute"               [ label="\N\nSciences Nice"                        ]
+  "Autoroute"               [ label="\N\nSciences Toulouse"                    ]
   "Casper"                  [ label="\N\nSciences Angers"                      ]
+  "Cerise"                  [ label="\N\nSciences Grenoble"                    ]
   "CraKotte"                [ label="\N\nSciences Grenoble"                    ]
-  "Fritoupompri"            [ label="\N\nSciences Paris"                       ] // Séverin Pompom
+  "DallAs"                  [ label="\N\nSciences Grenoble"                    ]
+  "Dexter"                  [ label="\N\nSciences Grenoble"                    ]
+  "DanceFloor"              [ label="\N\nSciences Grenoble"                    ]
+  "Echantiion"              [ label="\N\nSciences Grenoble"                    ]
+  "Farinelli"               [ label="\N\nSciences Montpellier"                 ]
+  "Florie"                  [ label="\N\nSciences Grenoble"                    ]
+  "Fritoupompri"            [ label="\N\nSciences Paris"                       ]
+  "Gala"                    [ label="\N\nSciences Grenoble"                    ]
   "HGEL"                    [ label="\N\nSciences Strasbourg"                  ]
-  "KaleeSiX"                [ label="\N\nSciences Grenoble"                    ] // Élodie
+  "Homotractus"             [ label="\N\nSciences Grenoble"                    ]
+  "IsotopX"                 [ label="\N\nSciences Valence"                     ]
+  "Jekyll"                  [ label="\N\nSciences Grenoble"                    ]
+  "KaleeSiX"                [ label="\N\nSciences Grenoble"                    ]
   "Klonti"                  [ label="\N\nSciences Paris"                       ]
+  "Le Belge"                [ label="\N\nSciences Grenoble"                    ]
+  "Le Blond"                [ label="\N\nSciences Grenoble"                    ]
+  "LeMoch"                  [ label="\N\nSciences Grenoble"                    ] // Ingé ?
+  "MAmie LUlu"              [ label="\N\nSciences Grenoble"                    ]
+  "Mayol"                   [ label="\N\nSciences Grenoble"                    ]
   "Mouillette"              [ label="\N\nSciences Paris"                       ]
   "Mr l'Ambassadeur Droopy" [ label="\N\nSciences Paris"                       ]
+  "Méconium"                [ label="\N\nSciences Grenoble"                    ]
+  "Milka"                   [ label="\N\nSciences Toulouse"                    ]
+  "Minorette"               [ label="\N\nSciences Grenoble"                    ]
+  "Oxitane"                 [ label="\N\nSciences Grenoble"                    ]
   "Peach"                   [ label="\N\nSciences Strasbourg"                  ]
-  "PingWinX"                [ label="\N\nSciences Grenoble"                    ] // Céline
-  "Raidred"                 [ label="\N\nSciences Angers"                      ]
+  "PingWinX"                [ label="\N\nSciences Grenoble"                    ]
+  "Pokudex"                 [ label="\N\nSciences Grenoble"                    ]
+  "PoudreuZ"                [ label="\N\nSciences Grenoble"                    ]
+  "RaidRed"                 [ label="\N\nSciences Angers"                      ]
+  "Rainette"                [ label="\N\nSciences Grenoble"                    ]
   "RamaDiane PutKassTOM"    [ label="\N\nSciences Paris"                       ]
-  "Saccharose"              [ label="\N\nSciences Grenoble"                    ] // Charline
-  "Spawwow"                 [ label="\N\nSciences Valence"                     ] // Willem
+  "Romain2"                 [ label="\N\nSciences Grenoble"                    ]
+  "Ross"                    [ label="\N\nSciences Grenoble"                    ]
+  "SaChaRose"               [ label="\N\nSciences Grenoble"                    ]
+  "Scuz"                    [ label="\N\nSciences Grenoble"                    ]
+  "Spawwow"                 [ label="\N\nSciences Valence"                     ]
+  "Tagada"                  [ label="\N\nSciences Grenoble"                    ]
   "Targayte"                [ label="\N\nSciences Angers"                      ]
   "Tatayet"                 [ label="\N\nSciences Paris"                       ]
+  "VIL1"                    [ label="\N\nSciences ?"                           ] // Probablement Grenoble
 
 
   // Cas particuliers
@@ -165,23 +302,33 @@ digraph ArbreFal {
   "Vésuvia"                 [ label="\N\nSciences/? Strasbourg"                ]
 
   node [ fillcolor="darkviolet;.5:blue3:black", fontcolor=white ]
-  "DucoPute"                [ label="\N\nIPP/Sciences Paris"                   ] // Erwan Tocard
+  "DucoPute"                [ label="\N\nIPP/Sciences Paris"                   ]
+
+  node [ fillcolor="darkviolet:darkgreen", fontcolor=white ]
+  "KonSanguine"             [ label="\N\nSciences/Pharma Grenoble"             ]
 
 
   // Filière Inconnue
 
   node [ fillcolor="black", fontcolor=white ]
-  "Bisounours"              [ label="\N\n?"                                    ]
-  "Bée"                     [ label="\N\n?"                                    ]
-  "Catapu(l)te"             [ label="\N\n? Nancy"                              ] // Alix
+  "Bic"                     [ label="\N\n?"                                    ] // Probablement Nancy
+  "Bisounours"              [ label="\N\n? Valence"                            ]
+  "Céline"                  [ label="\N\n?"                                    ] // Montpellier ? Gre ? SF ?
+  "Didier"                  [ label="\N\n?"                                    ] // Eco Valence/Gre ? Surnom ou prénom ? valence ?
+  "Dihast"                  [ label="\N\n? Rennes"                             ]
   "Dorine"                  [ label="\N\n? Paris"                              ]
-  "Epiboom"                 [ label="\N\n?"                                    ]
+  "Glasgow 4"               [ label="\N\n?"                                    ] // Probablement Médecine
   "Guilleu"                 [ label="\N\n? Paris"                              ]
-  "Ketchupipe"              [ label="\N\n? Nice"                               ] // Aurore d'Hossegor
+  "JFPLG"                   [ label="\N\n?"                                    ]
+  "Jésus"                   [ label="\N\n?"                                    ] // Probablement Médecine
+  "KKcouture"               [ label="\N\n?"                                    ] // Probablement Nancy
+  "KKshate"                 [ label="\N\n?"                                    ] // Probablement Nancy
   "Lapinsette"              [ label="\N\n? Angers"                             ]
-  "Papotin"                 [ label="\N\n?"                                    ]
-  "Redboule"                [ label="\N\n? Valence"                            ] // Séverine
+  "LeDoyen"                 [ label="\N\n? Valence"                            ]
+  "Pachyboulette"           [ label="\N\n? Grenoble"                           ]
+  "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
   "So Late"                 [ label="\N\n?"                                    ]
+  "Taxi"                    [ label="\N\n?"                                    ]
 
 
   /*
@@ -191,18 +338,202 @@ digraph ArbreFal {
   subgraph years {
     edge [ meta="year" ]
     node [ shape=plaintext, meta="year" ]
-    "préhistoire" -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> 2015 -> 2017 -> 2022 -> 2023
+    "préhistoire" -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004
+                     2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010
+                     2010 -> 2011 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016
+                     2016 -> 2017 -> 2018 -> 2019 -> 2020 -> 2021 -> 2022
+                     2022 -> 2023
+    "2004-2" [ style=invisible ]
+    "2005-2" [ style=invisible ]
+    "2006-2" [ style=invisible ]
+    "2007-2" [ style=invisible ]
+    "2008-2" [ style=invisible ]
+    "2009-2" [ style=invisible ]
+    "2010-2" [ style=invisible ]
+    "2011-2" [ style=invisible ]
+    "2012-2" [ style=invisible ]
 
     { rank=source; "préhistoire"; }
-    subgraph 2010 { rank=same; 2010; "Kalamity"; }
-    subgraph 2011 { rank=same; 2011; "GayTA"; }
-    subgraph 2012 { rank=same; 2012; "Fucks Bunny"; }
-    subgraph 2013 { rank=same; 2013; "RamaDiane PutKassTOM"; }
-    subgraph 2014 { rank=same; 2014; "Valjean"; }
-    subgraph 2015 { rank=same; 2015; "Gringotts"; "TOM JagerFeeld"; }
-    subgraph 2017 { rank=same; 2017; "Meme0TechNik"; }
-    subgraph 2022 { rank=same; 2022; "EquiNoX"; "ThunderStuck"; }
-    subgraph 2023 { rank=same; 2023; "SthOtouxDouX"; }
+    subgraph 1998 { rank=same; 1998;
+      "Sherlock";
+    }
+    subgraph 1999 { rank=same; 1999;
+    }
+    subgraph 2000 { rank=same; 2000;
+      "Le Belge";
+    }
+    subgraph 2001 { rank=same; 2001;
+      "Guignol";
+      "Ross";
+    }
+    subgraph 2002 { rank=same; 2002;
+      "LaVieille";
+    }
+    subgraph 2003 { rank=same; 2003;
+      "Gaëlle";
+      "Kuf";
+      "MAmie LUlu";
+      "Père Chartreux";
+      "Ramucho";
+    }
+    subgraph 2004 { rank=same; 2004;
+      "Amibe";
+      "Audrey";
+      "La Douve";
+      "LeMoch";
+      "Toonies";
+    }
+    subgraph "2004-2" { rank=same; "2004-2";
+      "Minorette";
+      "Tagada";
+      "TiTang";
+    }
+    subgraph 2005 { rank=same; 2005;
+      "Absinthe";
+      "Alcaline";
+      "CHArette";
+      "Durix";
+      "Gala";
+      "HP";
+      "IsotopX";
+      "La Méloche";
+      "Rainette";
+      "Thanh";
+      "Toad";
+    }
+    subgraph "2005-2" { rank=same; "2005-2";
+      "Clito";
+    }
+    subgraph 2006 { rank=same; 2006;
+      "Bigbisou";
+      "Farinelli";
+      "Grs Bsx";
+      "Manus";
+      "Oupsm";
+      "Smile";
+      "Taz";
+    }
+    subgraph "2006-2" { rank=same; "2006-2";
+      "Seb";
+      "Valentine";
+    }
+    subgraph 2007 { rank=same; 2007;
+      "Cerise";
+      "Douillette";
+      "Mayol";
+      "Mr Tout Nu";
+      "Pala";
+      "Romain2";
+      "Uno";
+    }
+    subgraph "2007-2" { rank=same; "2007-2";
+      "DanceFloor";
+    }
+    subgraph 2008 { rank=same; 2008;
+      "Deuz";
+      "Echantiion";
+      "Le Blond";
+      "Mèche";
+      "Méconium";
+      "Pinocchio";
+      "PoudreuZ";
+      "SNCF";
+      "Vicking";
+    }
+    subgraph "2008-2" { rank=same; "2008-2";
+      "Achess";
+      "Huggiz";
+      "KonSanguine";
+      "Sandy";
+    }
+    subgraph 2009 { rank=same; 2009;
+      "Alt F4";
+      "Autoroute";
+      "Dexter";
+      "Jekyll";
+      "Kinder";
+      "Lotus";
+      "Mallaury";
+      "Oxitane";
+      "Pipaille";
+    }
+    subgraph "2009-2" { rank=same; "2009-2";
+      "DallAs";
+    }
+    subgraph 2010 { rank=same; 2010;
+      "AlucARD";
+      "Béé";
+      "CraKotte";
+      "Hénaff";
+      "L'orphelin";
+      "Napiléon";
+      "Redboule";
+      "VDMKinectX";
+    }
+    subgraph "2010-2" { rank=same; "2010-2";
+      "Kalamity";
+      "Worms";
+    }
+    subgraph 2011 { rank=same; 2011;
+      "Artichaude";
+      "Balthazar";
+      "GayTA";
+      "L'infirme";
+      "MessiX";
+      "Pokudex";
+      "Rondoudou";
+      "SLIMEr";
+    }
+    subgraph "2011-2" { rank=same; "2011-2";
+      "Spip";
+    }
+    subgraph 2012 { rank=same; 2012;
+      "Catapu(l)te";
+      "DigniTruc";
+      "Dopler";
+      "Epi Boom";
+      "Fucks Bunny";
+      "KetchuPipe";
+      "SaChaRose";
+    }
+    subgraph "2012-2" { rank=same; "2012-2";
+      "Pippin";
+    }
+    subgraph 2013 { rank=same; 2013;
+      "RamaDiane PutKassTOM";
+      "SeintX";
+    }
+    subgraph 2014 { rank=same; 2014;
+      "Craziiiiii";
+      "Valjean";
+    }
+    subgraph 2015 { rank=same; 2015;
+      "Gringotts";
+      "KaleeSiX";
+      "TOM JagerFeeld";
+      "VisseVersa";
+    }
+    subgraph 2016 { rank=same; 2016;
+    }
+    subgraph 2017 { rank=same; 2017;
+      "Meme0TechNik";
+    }
+    subgraph 2018 { rank=same; 2018;
+    }
+    subgraph 2019 { rank=same; 2019;
+      "PingWinX";
+    }
+    subgraph 2020 { rank=same; 2020;
+    }
+    subgraph 2021 { rank=same; 2021;
+    }
+    subgraph 2022 { rank=same; 2022;
+      "EquiNoX";
+      "ThunderStuck";
+    }
+    subgraph 2023 { rank=same; 2023;
+      "SthOtouxDouX";
+    }
   }
 
 
@@ -210,98 +541,261 @@ digraph ArbreFal {
    * Liens
    */
 
+  "Absinthe"                -> "Mr Tout Nu"
   "Absynthe"                -> "Couscous Boulette"
-  "Alucard"                 -> "Kalamity"
-  "Alucard"                 -> "Slimer"
+  "Achess"                  -> "Balthazar"
+  "Alcaline"                -> "Alt F4"
+  "Alcaline"                -> "Kinder"
+  "Alt F4"                  -> "DallAs"
+  "AlucARD"                 -> "Kalamity"
+  "AlucARD"                 -> "SLIMEr"
+  "Amibe"                   -> "CHArette"
+  "Amibe"                   -> "Minorette"
   "AnecdhOt Surprix"        -> "RockquhOt SATfredi"
+  "Anne-Sophisme"           -> "Gaëlle"
+  "Artichaude"              -> "DigniTruc"
   "Artilleriz Cantonais"    -> "Rozeme"
+  "Astrid"                  -> "Pala"
+  "Atol"                    -> "Uno"
+  "Audrey"                  -> "Clito"
+  "Audrey"                  -> "La Méloche"
+  "Audrey"                  -> "Manus"
   "Auhazard"                -> "Molloss"
+  "Aurélie1"                -> "Pinocchio"
+  "Aurélie1"                -> "SNCF"
+  "Aurélie2"                -> "Amibe"
   "Autoroute"               -> "Rondoudou"
+  "Avrel"                   -> "Vicking"
+  "Balthazar"               -> "SaChaRose"
+  "Ben(R)"                  -> "Père Chartreux"
+  "Bic"                     -> "Mallaury"
   "Big Bisous"              -> "ScandalTreuse"
+  "Bigbisou"                -> "Seb"
   "Bioshop"                 -> "TOM Juan"
   "Bisounours"              -> "Redboule"
-  "Bée"                     -> "Messix"
-  "Casper"                  -> "Raidred"
+  "Béé"                     -> "MessiX"
+  "CHArette"                -> "Pala"
+  "Carole"                  -> "LaVieille"
+  "Casper"                  -> "RaidRed"
   "Catapu(l)te"             -> "VisseVersa"
+  "Cerise"                  -> "PoudreuZ"
+  "Charles"                 -> "Mayol"
+  "Claire"                  -> "Grs Bsx"
+  "Clito"                   -> "Oupsm"
+  "Coin-Coin"               -> "Béé"
+  "Coline"                  -> "Béé"
   "Couscous Boulette"       -> "Le Cul d'ta Maman"
-  "CraKotte"                -> "Slimer"
+  "CraKotte"                -> "SLIMEr"
+  "Cracki"                  -> "Achess"
   "Craziiiiii"              -> "VisseVersa"
-  "Diabsainthe"             -> "YOLOndi"
+  "Céline"                  -> "Artichaude"
+  "DallAs"                  -> "Pippin"
+  "Damienne"                -> "Le Belge"
+  "DanceFloor"              -> "Méconium"
+  "Dantach"                 -> "Ramucho"
+  "Deuz"                    -> "Achess"
+  "Dexter"                  -> "Pokudex"
+  "DiabSainthe"             -> "YOLOndi"
+  "Didier"                  -> "Artichaude"
+  "DigniTruc"               -> "Pippin"
+  "Dihast"                  -> "Le Belge"
   "Dopler"                  -> "Valjean"
   "Dorine"                  -> "Molloss"
+  "Douillette"              -> "Méconium"
   "DucoPute"                -> "RamaDiane PutKassTOM"
-  "Epiboom"                 -> "SeintX"
+  "Durix"                   -> "Bigbisou"
+  "Dédé"                    -> "Durix"
+  "Echantiion"              -> "Oxitane"
+  "Epi Boom"                -> "SeintX"
   "EquiNoX"                 -> "SthOtouxDouX"
+  "Eva"                     -> "Smile"
+  "Fanfoué"                 -> "Pipaille"
+  "Farinelli"               -> "SNCF"
   "FeuFéeLeeY"              -> "TOM JagerFeeld"
+  "Florie"                  -> "Gala"
+  "Freudette"               -> "Hénaff"
   "Fritoupompri"            -> "Big Bisous"
   "Fritoupompri"            -> "Fucks Bunny"
   "Fucks Bunny"             -> "Féelin ONapalm"
   "Féelin ONapalm"          -> "FeuFéeLeeY"
+  "Gala"                    -> "Mayol"
   "Galopatetik"             -> "Fucks Bunny"
   "GayTA"                   -> "Ludimime"
+  "Gaëlle"                  -> "Audrey"
+  "Glasgow 4"               -> "L'orphelin"
   "Gringotts"               -> "EquiNoX"
+  "Grs Bsx"                 -> "Mr Tout Nu"
+  "Guignol"                 -> "LaVieille"
+  "Guillaume"               -> "Romain2"
   "Guilleu"                 -> "Mouillette"
   "HGEL"                    -> "Peach"
+  "HP"                      -> "Manus"
+  "Homotractus"             -> "Amibe"
+  "Huggiz"                  -> "Dopler"
+  "Hénaff"                  -> "Pokudex"
+  "Hénaff"                  -> "Worms"
+  "IsotopX"                 -> "Kinder"
+  "JFPLG"                   -> "Autoroute"
+  "Jason"                   -> "Farinelli"
+  "Jeff"                    -> "Taz"
+  "Jekyll"                  -> "Napiléon"
+  "Jésus"                   -> "L'infirme"
   "KDO"                     -> "HGEL"
+  "KKcouture"               -> "Mallaury"
+  "KKshate"                 -> "Mallaury"
   "Kalamity"                -> "Gringotts"
   "KaleeSiX"                -> "PingWinX"
-  "Ketchupipe"              -> "Ludimime"
+  "Kaporal"                 -> "Napiléon"
+  "Ken Park"                -> "Hénaff"
+  "KetchuPipe"              -> "Ludimime"
+  "Kinder"                  -> "AlucARD"
   "Kiss"                    -> "Couscous Boulette"
   "Klonti"                  -> "ScandalTreuse"
   "Knapis TOM"              -> "RamaDiane PutKassTOM"
+  "KonSanguine"             -> "Dexter"
+  "Kuf"                     -> "HP"
+  "L'infirme"               -> "Spip"
+  "L'orphelin"              -> "L'infirme"
   "LBoy"                    -> "DucoPute"
   "LBoy"                    -> "Ricola"
+  "La Douve"                -> "TiTang"
+  "La Méloche"              -> "Taz"
+  "LaVieille"               -> "Tagada"
+  "LaVieille"               -> "Toad"
+  "Lalane"                  -> "VDMKinectX"
   "Lapile"                  -> "Ricola"
-  "Lapinsette"              -> "Raidred"
-  "Le Cul d'ta Maman"       -> "Ketchupipe"
+  "Lapinsette"              -> "RaidRed"
+  "Le Belge"                -> "Douillette"
+  "Le Blond"                -> "CraKotte"
+  "Le Cul d'ta Maman"       -> "KetchuPipe"
+  "LeDoyen"                 -> "IsotopX"
+  "LeMoch"                  -> "Bigbisou"
+  "LeMoch"                  -> "La Méloche"
+  "LeMoch"                  -> "Tagada"
+  "Lili"                    -> "MAmie LUlu"
   "Loque Ness"              -> "RockquhOt SATfredi"
   "Lotus"                   -> "Kalamity"
   "Ludimime"                -> "FeuFéeLeeY"
+  "Léo"                     -> "CraKotte"
+  "MAmie LUlu"              -> "Toad"
+  "Majorett"                -> "Alcaline"
   "Mallaury"                -> "Catapu(l)te"
+  "Mama"                    -> "Spip"
   "Maman Loup"              -> "KDO"
+  "Manus"                   -> "Alt F4"
+  "Manus"                   -> "Deuz"
+  "Marcel Pouet Pouet"      -> "Catapu(l)te"
+  "Marie-Laure"             -> "Tagada"
   "Mathou"                  -> "Pédale"
+  "Matthieu"                -> "Le Blond"
+  "Mayol"                   -> "Scuz"
   "Meme0TechNik"            -> "SthOtouxDouX"
-  "Messix"                  -> "KaleeSiX"
+  "MessiX"                  -> "KaleeSiX"
+  "Milka"                   -> "Autoroute"
+  "Minorette"               -> "Rainette"
   "Molloss"                 -> "GayTA"
   "Molloss"                 -> "Petit Poney Rose"
   "Mouillette"              -> "Auhazard"
+  "Moustache"               -> "Mèche"
+  "Mr Tout Nu"              -> "DanceFloor"
   "Mr l'Ambassadeur Droopy" -> "Auhazard"
+  "Mèche"                   -> "Kinder"
+  "Mèche"                   -> "Sandy"
+  "Méconium"                -> "Oxitane"
+  "Napiléon"                -> "Epi Boom"
   "Nokia"                   -> "YOLOndi"
+  "Numerobis"               -> "Mèche"
   "Otiste2000"              -> "TOMtonnoir"
-  "Papotin"                 -> "Messix"
+  "Oupsm"                   -> "Deuz"
+  "Oupsm"                   -> "Douillette"
+  "Oupsm"                   -> "Valentine"
+  "Oxitane"                 -> "DallAs"
+  "Oxitane"                 -> "Worms"
+  "Pachyboulette"           -> "Père Chartreux"
+  "Pala"                    -> "DanceFloor"
+  "Pam"                     -> "Durix"
+  "Papotin"                 -> "MessiX"
   "Patocyte"                -> "TOMtonnoir"
   "Peach"                   -> "Petit Poney Rose"
   "Petit Poney Rose"        -> "GayTA"
   "Piericor"                -> "Rondoudou"
   "PingWinX"                -> "EquiNoX"
-  "Pouet Pouet"             -> "Catapu(l)te"
+  "Pinocchio"               -> "AlucARD"
+  "Pinocchio"               -> "Lotus"
+  "Pipaille"                -> "VDMKinectX"
+  "Pippin"                  -> "DiabSainthe"
+  "Pokudex"                 -> "SaChaRose"
+  "PoudreuZ"                -> "Jekyll"
+  "PoudreuZ"                -> "Sandy"
+  "Pumba"                   -> "HP"
+  "Pumba"                   -> "Seb"
+  "Père Chartreux"          -> "Alcaline"
+  "Père Chartreux"          -> "Audrey"
   "Pédale"                  -> "ThunderStuck"
-  "Raidred"                 -> "Klonti"
+  "RaidRed"                 -> "Klonti"
+  "Rainette"                -> "Romain2"
   "RamaDiane PutKassTOM"    -> "TOM JagerFeeld"
+  "Ramucho"                 -> "Valentine"
+  "Raph"                    -> "Smile"
   "Rebelote"                -> "Le Cul d'ta Maman"
   "Redboule"                -> "Craziiiiii"
   "Ricola"                  -> "DucoPute"
   "RockquhOt SATfredi"      -> "ThunderStuck"
-  "Rondoudou"               -> "Ketchupipe"
+  "Rodrigo"                 -> "Gaëlle"
+  "Romain1"                 -> "Ramucho"
+  "Romain2"                 -> "PoudreuZ"
+  "Rondoudou"               -> "KetchuPipe"
+  "Ross"                    -> "Minorette"
   "Rozeme"                  -> "Knapis TOM"
-  "Saccharose"              -> "Valjean"
+  "SLIMEr"                  -> "SeintX"
+  "SNCF"                    -> "Huggiz"
+  "SaChaRose"               -> "Valjean"
+  "Sandy"                   -> "Balthazar"
+  "Satanas"                 -> "Farinelli"
   "ScandalTreuse"           -> "Féelin ONapalm"
+  "Scuz"                    -> "Huggiz"
+  "Seb"                     -> "Pinocchio"
   "SeintX"                  -> "KaleeSiX"
-  "Slimer"                  -> "SeintX"
+  "Sherlock"                -> "Gala"
+  "Shrek"                   -> "Absinthe"
+  "Smile"                   -> "Uno"
   "So Late"                 -> "Redboule"
+  "Solumedor"               -> "DiabSainthe"
+  "Sophie"                  -> "Guignol"
   "Spawwow"                 -> "Craziiiiii"
   "Sperminaroze"            -> "Rozeme"
+  "Spip"                    -> "DigniTruc"
   "TOM JagerFeeld"          -> "Meme0TechNik"
   "TOM Juan"                -> "Knapis TOM"
   "TOMtonnoir"              -> "TOM Juan"
+  "Tagada"                  -> "Rainette"
   "Targayte"                -> "Klonti"
   "TaspégiC"                -> "Sperminaroze"
   "Tatayet"                 -> "Mr l'Ambassadeur Droopy"
+  "Taxi"                    -> "Absinthe"
+  "Taz"                     -> "Dexter"
+  "Taz"                     -> "Echantiion"
+  "Taz"                     -> "KonSanguine"
+  "Taz"                     -> "Vicking"
+  "Terrine"                 -> "Pipaille"
+  "Thanh"                   -> "Grs Bsx"
   "ThunderStuck"            -> "SthOtouxDouX"
+  "TiTang"                  -> "IsotopX"
+  "TiTang"                  -> "Scuz"
+  "Toad"                    -> "Clito"
+  "Toonies"                 -> "TiTang"
+  "Uno"                     -> "Jekyll"
+  "Uno"                     -> "Le Blond"
+  "VDMKinectX"              -> "Epi Boom"
+  "VIL1"                    -> "MAmie LUlu"
   "Vache6micJudas"          -> "Pédale"
+  "Valentine"               -> "Echantiion"
   "Valjean"                 -> "Gringotts"
+  "Vicking"                 -> "KonSanguine"
   "VisseVersa"              -> "PingWinX"
   "Vésuvia"                 -> "Maman Loup"
+  "Worms"                   -> "Dopler"
   "YOLOndi"                 -> "Meme0TechNik"
   "Zaza"                    -> "Catapu(l)te"
+  "aKpouleseau"             -> "CHArette"
 }
