@@ -19,7 +19,7 @@ digraph ArbreFal {
   node [ fillcolor="dodgerblue2", fontcolor=black ]
   "Cracki"                  [ label="\N\nThéatre Rouen"                        ]
   "Grs Bsx"                 [ label="\N\nArchitecture Grenoble"                ]
-  "Nokia"                   [ label="\N\nGame Design Paris"                    ]
+  "Nokia"                   [ label="\N\nGame_Design Paris"                    ]
   "TOM JagerFeeld"          [ label="\N\nBeaux-Arts Paris"                     ]
 
 
@@ -28,7 +28,7 @@ digraph ArbreFal {
   node [ fillcolor="white", fontcolor=black ]
   "Absinthe"                [ label="\N\nIUT Nice"                             ]
   "Dantach"                 [ label="\N\nBTS Lyon"                             ]
-  "Kinder"                  [ label="\N\nBTS Optique Grenoble"                 ]
+  "Kinder"                  [ label="\N\nBTS_Optique Grenoble"                 ]
   "La Douve"                [ label="\N\nIUT Valence"                          ]
   "Léo"                     [ label="\N\nIUT ?"                                ] // Probablement Grenoble
   "SLIMEr"                  [ label="\N\nBTS Grenoble"                         ]
@@ -183,16 +183,16 @@ digraph ArbreFal {
   "Audrey"                  [ label="\N\nInf Grenoble"                         ]
   "Fanfoué"                 [ label="\N\nInf Grenoble"                         ]
   "Knapis TOM"              [ label="\N\nParamed Créteil"                      ]
-  "Lalane"                  [ label="\N\nPrépa Inf Grenoble"                   ] // Ville pas sûre
+  "Lalane"                  [ label="\N\nPrépa_Inf Grenoble"                   ] // Ville pas sûre
   "Lapile"                  [ label="\N\nParamed ?"                            ]
   "Le Cul d'ta Maman"       [ label="\N\nParamed Nice"                         ]
   "Mallaury"                [ label="\N\nErgo Nancy"                           ]
   "Marcel Pouet Pouet"      [ label="\N\nKiné ?"                               ]
-  "MessiX"                  [ label="\N\nManip' Radio Grenoble"                ]
+  "MessiX"                  [ label="\N\nManip'_Radio Grenoble"                ]
   "Moustache"               [ label="\N\nInf Grenoble"                         ]
   "Mèche"                   [ label="\N\nInf Grenoble"                         ]
   "Numerobis"               [ label="\N\nInf Grenoble"                         ]
-  "Papotin"                 [ label="\N\nManip' Radio ?"                       ]
+  "Papotin"                 [ label="\N\nManip'_Radio ?"                       ]
   "Piericor"                [ label="\N\nParamed Nice"                         ]
   "Pipaille"                [ label="\N\nParamed Grenoble"                     ]
   "Pédale"                  [ label="\N\nInf Reims"                            ]

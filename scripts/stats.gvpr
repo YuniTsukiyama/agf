@@ -1,0 +1,281 @@
+BEG_G {
+
+  int personCount = 0;
+
+  // Compteurs de filières
+  int arts           = 0;
+  int iut_bts        = 0;
+  int prepa          = 0;
+  int dentaire       = 0;
+  int com            = 0;
+  int droit          = 0;
+  int eco_gestion    = 0;
+  int inge           = 0;
+  int jaune          = 0;
+  int med            = 0;
+  int paramed        = 0;
+  int pharma         = 0;
+  int sf             = 0;
+  int sciences       = 0;
+  int autres         = 0;
+  int inconnue_f     = 0;
+  int non_reconnue_f = 0;
+
+  // Compteurs de villes
+  int angers         = 0;
+  int creteil        = 0;
+  int grenoble       = 0;
+  int lyon           = 0;
+  int marseille      = 0;
+  int metz           = 0;
+  int montpellier    = 0;
+  int nancy          = 0;
+  int nice           = 0;
+  int nimes          = 0;
+  int paris          = 0;
+  int reims          = 0;
+  int rennes         = 0;
+  int rouen          = 0;
+  int strasbourg     = 0;
+  int toulouse       = 0;
+  int valence        = 0;
+  int inconnue_v     = 0;
+  int non_reconnue_v = 0;
+
+  $tvnext = NULL;
+}
+
+N [$.meta != "year"] {
+  ++personCount;
+
+  string filiere;
+  string ville;
+
+  sscanf($.label, "\\N\\n%s %s", &filiere, &ville);
+
+  // Compte les filieres
+  switch (filiere)
+  {
+  case "Architecture":
+  case "Beaux-Arts":
+  case "Game_Design":
+  case "Théatre":
+    ++iut_bts;
+    break;
+
+  case "BTS":
+  case "BTS_Optique":
+  case "DUT":
+  case "IUT":
+    ++iut_bts;
+    break;
+
+  case "Prépa":
+    ++prepa;
+    break;
+
+  case "Dentaire":
+    ++dentaire;
+    break;
+
+  case "Communication":
+    ++com;
+    break;
+
+  case "Droit":
+    ++droit;
+    break;
+
+  case "Éco":
+  case "Éco-Gestion":
+    ++eco_gestion;
+    break;
+
+  case "IPP":
+  case "Ingé":
+    ++inge;
+    break;
+
+  case "Histoire":
+  case "Jaune":
+  case "Lettres":
+  case "Psycho":
+  case "Socio":
+    ++jaune;
+    break;
+
+  case "Médecine":
+    ++med;
+    break;
+
+  case "Ergo":
+  case "Inf":
+  case "Kiné":
+  case "Manip'_Radio":
+  case "Ortho":
+  case "Paramed":
+  case "Prépa_Inf":
+    ++paramed;
+    break;
+
+  case "Pharma":
+    ++pharma;
+    break;
+
+  case "Sage-Femme":
+    ++sf;
+    break;
+
+  case "Sciences":
+    ++sciences;
+    break;
+
+  case "IPP/Sciences":
+  case "Sciences/?":
+  case "Sciences/Paramed":
+  case "Sciences/Pharma":
+    ++autres;
+    break;
+
+  case "":
+  case "?":
+    ++inconnue_f;
+    break;
+
+  default:
+    printf(2, "avertissement: filière non reconnue `%s'\n", filiere);
+    ++non_reconnue_f;
+  }
+
+  switch (ville)
+  {
+  case "Angers":
+    ++angers;
+    break;
+
+  case "Créteil":
+    ++creteil;
+    break;
+
+  case "Grenoble":
+    ++grenoble;
+    break;
+
+  case "Lyon":
+    ++lyon;
+    break;
+
+  case "Marseille":
+    ++marseille;
+    break;
+
+  case "Metz":
+    ++metz;
+    break;
+
+  case "Montpellier":
+    ++montpellier;
+    break;
+
+  case "Nancy":
+    ++nancy;
+    break;
+
+  case "Nice":
+    ++nice;
+    break;
+
+  case "Nîmes":
+    ++nimes;
+    break;
+
+  case "Bobigny":
+  case "KB":
+  case "PD":
+  case "PO":
+  case "Paris":
+    ++paris;
+    break;
+
+  case "Strasbourg":
+    ++strasbourg;
+    break;
+
+  case "Reims":
+    ++reims;
+    break;
+
+  case "Rennes":
+    ++rennes;
+    break;
+
+  case "Rouen":
+    ++rouen;
+    break;
+
+  case "Toulouse":
+    ++toulouse;
+    break;
+
+  case "Valence":
+    ++valence;
+    break;
+
+  case "":
+  case "?":
+    ++inconnue_v;
+    break;
+
+  default:
+    printf(2, "avertissement: ville non reconnue `%s'\n", ville);
+    ++non_reconnue_v;
+  }
+}
+
+END {
+  printf("Statistiques :\n\n");
+
+  printf("Nombre de personnes : %d\n\n", personCount);
+
+  printf("-- Filières --\n");
+  printf("Arts                                          : %2d\n", arts);
+  printf("BUT, DUT, BTS                                 : %2d\n", iut_bts);
+  printf("Classes Préparatoires                         : %2d\n", prepa);
+  printf("Chirurgie Dentaire                            : %2d\n", dentaire);
+  printf("Commerce, Gestion, Communication, Journalisme : %2d\n", com);
+  printf("Droit                                         : %2d\n", droit);
+  printf("Sciences Économiques, Gestion, IAE            : %2d\n", eco_gestion);
+  printf("Écoles d'Ingénieurs                           : %2d\n", inge);
+  printf("Sciences Humaines                             : %2d\n", jaune);
+  printf("Médecine                                      : %2d\n", med);
+  printf("Paramédical                                   : %2d\n", paramed);
+  printf("Pharmacie                                     : %2d\n", pharma);
+  printf("Sage-Femme                                    : %2d\n", sf);
+  printf("Sciences                                      : %2d\n", sciences);
+  printf("Autres                                        : %2d\n", autres);
+  printf("Inconnue                                      : %2d\n", inconnue_f);
+  if (non_reconnue_f > 0)
+    printf("Non-reconnues : %d\n", non_reconnue_f);
+
+  printf("\n-- Villes --\n");
+  printf("Angers      : %d\n", angers);
+  printf("Creteil     : %d\n", creteil);
+  printf("Grenoble    : %d\n", grenoble);
+  printf("Lyon        : %d\n", lyon);
+  printf("Marseille   : %d\n", marseille);
+  printf("Metz        : %d\n", metz);
+  printf("Montpellier : %d\n", montpellier);
+  printf("Nancy       : %d\n", nancy);
+  printf("Nice        : %d\n", nice);
+  printf("Nimes       : %d\n", nimes);
+  printf("Paris       : %d\n", paris);
+  printf("Reims       : %d\n", reims);
+  printf("Rennes      : %d\n", rennes);
+  printf("Rouen       : %d\n", rouen);
+  printf("Strasbourg  : %d\n", strasbourg);
+  printf("Toulouse    : %d\n", toulouse);
+  printf("Valence     : %d\n", valence);
+  printf("Inconnue    : %2d\n", inconnue_v);
+  if (non_reconnue_v > 0)
+    printf("Non-reconnues : %d\n", non_reconnue_v);
+}

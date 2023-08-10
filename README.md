@@ -38,6 +38,14 @@ START="TOM\ JagerFeeld" DIR=0 make sub
 
 Par défaut, ce script renvoie l'arbre complet.
 
+## Statistiques
+
+Pour générer des stats sur la répartition villes / filières :
+
+```
+make stats
+```
+
 ## Nettoyer le dossier
 
 ```
@@ -46,5 +54,6 @@ make clean
 
 # TODO
 
-- Ajouter un script pour faire des stats sur les filières/villes
 - Ajouter des subgraphs pour les clusters de villes/filières
+- Ajouter des stats sur la personne la plus proche pour qui il me manque des
+  infos
