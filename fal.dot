@@ -195,7 +195,7 @@ digraph ArbreFal {
   "Papotin"                 [ label="\N\nManip'_Radio ?"                       ]
   "Piericor"                [ label="\N\nParamed Nice"                         ]
   "Pipaille"                [ label="\N\nParamed Grenoble"                     ]
-  "Pédale"                  [ label="\N\nInf Reims"                            ]
+  "Obvious40"               [ label="\N\nInf Reims"                            ]
   "Rondoudou"               [ label="\N\nOrtho Nice"                           ]
   "Rozeme"                  [ label="\N\nParamed ?"                            ]
   "Sandy"                   [ label="\N\nInf Grenoble"                         ]
@@ -521,6 +521,7 @@ digraph ArbreFal {
     subgraph 2018 { rank=same; 2018;
     }
     subgraph 2019 { rank=same; 2019;
+      "Obvious40";
       "PingWinX";
     }
     subgraph 2020 { rank=same; 2020;
@@ -686,7 +687,7 @@ digraph ArbreFal {
   "Manus"                   -> "Deuz"
   "Marcel Pouet Pouet"      -> "Catapu(l)te"
   "Marie-Laure"             -> "Tagada"
-  "Mathou"                  -> "Pédale"
+  "Mathou"                  -> "Obvious40"
   "Matthieu"                -> "Le Blond"
   "Mayol"                   -> "Scuz"
   "Meme0TechNik"            -> "SthOtouxDouX"
@@ -731,7 +732,7 @@ digraph ArbreFal {
   "Pumba"                   -> "Seb"
   "Père Chartreux"          -> "Alcaline"
   "Père Chartreux"          -> "Audrey"
-  "Pédale"                  -> "ThunderStuck"
+  "Obvious40"               -> "ThunderStuck"
   "RaidRed"                 -> "Klonti"
   "Rainette"                -> "Romain2"
   "RamaDiane PutKassTOM"    -> "TOM JagerFeeld"
@@ -788,7 +789,7 @@ digraph ArbreFal {
   "Uno"                     -> "Le Blond"
   "VDMKinectX"              -> "Epi Boom"
   "VIL1"                    -> "MAmie LUlu"
-  "Vache6micJudas"          -> "Pédale"
+  "Vache6micJudas"          -> "Obvious40"
   "Valentine"               -> "Echantiion"
   "Valjean"                 -> "Gringotts"
   "Vicking"                 -> "KonSanguine"
