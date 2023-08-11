@@ -17,7 +17,7 @@ $(INT_FILE): $(INPUT)
 	cp '$(INPUT)' $(INT_FILE)
 
 sub: $(INPUT) $(SCRIPT_SUB)
-	gvpr -f $(SCRIPT_SUB) -a '$(START)' -a '$(DIR)' $< -o $(INT_FILE)
+	gvpr -f $(SCRIPT_SUB) -a "'$(START)'" -a '$(DIR)' $< -o $(INT_FILE)
 	$(MAKE)
 
 stats: $(INPUT) $(SCRIPT_STATS)
