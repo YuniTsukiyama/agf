@@ -151,29 +151,44 @@ digraph ArbreFal {
   node [ fillcolor="red3", fontcolor=black ]
   "AnecdhOt Surprix"        [ label="\N\nMédecine PO"                          ]
   "Anne-Sophisme"           [ label="\N\nMédecine ?"                           ]
-  "Artilleriz Cantonais"    [ label="\N\nMédecine Bobigny"                     ]
+  "Artilleriz Cantonais"    [ label="\N\nMédecine PO"                          ]
   "Aurélie2"                [ label="\N\nMédecine Grenoble"                    ]
   "Avrel"                   [ label="\N\nMédecine Grenoble"                    ]
+  "Casanova"                [ label="\N\nMédecine PO"                          ]
+  "Chat Norris"             [ label="\N\nMédecine PO"                          ]
   "Claire"                  [ label="\N\nMédecine Grenoble"                    ] // Ville probable
-  "DiabSainthe"             [ label="\N\nMédecine PO"                          ]
+  "Corps Nichon"            [ label="\N\nMédecine PO"                          ]
+  "Cuddly Grrrreuf"         [ label="\N\nMédecine PO"                          ]
+  "Diab Sainthe"            [ label="\N\nMédecine PO"                          ]
+  "EleFuRRRious"            [ label="\N\nMédecine PO"                          ]
   "Gaëlle"                  [ label="\N\nMédecine Grenoble"                    ]
   "Guillaume"               [ label="\N\nMédecine ?"                           ]
+  "ISTanBoobs"              [ label="\N\nMédecine PO"                          ]
   "Jason"                   [ label="\N\nMédecine Nîmes"                       ]
   "Jeff"                    [ label="\N\nMédecine Paris"                       ]
   "Kaporal"                 [ label="\N\nMédecine ?"                           ] // Probablement Grenoble
+  "Kleptocard"              [ label="\N\nMédecine PO"                          ]
   "L'infirme"               [ label="\N\nMédecine Grenoble"                    ]
   "L'orphelin"              [ label="\N\nMédecine Grenoble"                    ] // Autre PM inconnu
-  "LBoy"                    [ label="\N\nMédecine ?"                           ]
+  "LBoy"                    [ label="\N\nMédecine ?"                           ] // Pas PO je pense
+  "Lama"                    [ label="\N\nMédecine PO"                          ]
   "Lili"                    [ label="\N\nMédecine ?"                           ] // Probablement Grenoble
   "Loque Ness"              [ label="\N\nMédecine KB"                          ]
   "Majorett"                [ label="\N\nMédecine Marseille"                   ]
+  "Momo R Ectus"            [ label="\N\nMédecine PO"                          ]
+  "Moustrique"              [ label="\N\nMédecine PO"                          ]
   "Otiste2000"              [ label="\N\nMédecine Créteil"                     ]
+  "Paco"                    [ label="\N\nMédecine PO"                          ]
+  "Polype"                  [ label="\N\nMédecine PO"                          ]
+  "Pucelle"                 [ label="\N\nMédecine PO"                          ]
   "Pumba"                   [ label="\N\nMédecine Nancy"                       ]
   "Rebelote"                [ label="\N\nMédecine Angers"                      ]
   "RockquhOt SATfredi"      [ label="\N\nMédecine PO"                          ]
   "Rodrigo"                 [ label="\N\nMédecine ?"                           ]
-  "Solumedor"               [ label="\N\nMédecine PO"                          ]
+  "SoluMedor"               [ label="\N\nMédecine PO"                          ]
+  "Tabasco"                 [ label="\N\nMédecine PO"                          ]
   "TaspégiC"                [ label="\N\nMédecine Bobigny"                     ]
+  "Tutu"                    [ label="\N\nMédecine PO"                          ]
   "Zaza"                    [ label="\N\nMédecine ?"                           ]
 
 
@@ -525,6 +540,7 @@ digraph ArbreFal {
       "PingWinX";
     }
     subgraph 2020 { rank=same; 2020;
+      "RockquhOt SATfredi";
     }
     subgraph 2021 { rank=same; 2021;
     }
@@ -577,18 +593,23 @@ digraph ArbreFal {
   "Béé"                     -> "MessiX"
   "CHArette"                -> "Pala"
   "Carole"                  -> "LaVieille"
+  "Casanova"                -> "SoluMedor"
   "Casper"                  -> "RaidRed"
   "Catapu(l)te"             -> "VisseVersa"
   "Cerise"                  -> "PoudreuZ"
   "Charles"                 -> "Mayol"
+  "Chat Norris"             -> "Cuddly Grrrreuf"
   "Claire"                  -> "Grs Bsx"
   "Clito"                   -> "Oupsm"
   "Coin-Coin"               -> "Béé"
   "Coline"                  -> "Béé"
+  "Corps Nichon"            -> "Lama"
+  "Corps Nichon"            -> "Momo R Ectus"
   "Couscous Boulette"       -> "Le Cul d'ta Maman"
   "CraKotte"                -> "SLIMEr"
   "Cracki"                  -> "Achess"
   "Craziiiiii"              -> "VisseVersa"
+  "Cuddly Grrrreuf"         -> "EleFuRRRious"
   "Céline"                  -> "Artichaude"
   "DallAs"                  -> "Pippin"
   "Damienne"                -> "Le Belge"
@@ -596,7 +617,7 @@ digraph ArbreFal {
   "Dantach"                 -> "Ramucho"
   "Deuz"                    -> "Achess"
   "Dexter"                  -> "Pokudex"
-  "DiabSainthe"             -> "YOLOndi"
+  "Diab Sainthe"            -> "YOLOndi"
   "Didier"                  -> "Artichaude"
   "DigniTruc"               -> "Pippin"
   "Dihast"                  -> "Le Belge"
@@ -607,6 +628,7 @@ digraph ArbreFal {
   "Durix"                   -> "Bigbisou"
   "Dédé"                    -> "Durix"
   "Echantiion"              -> "Oxitane"
+  "EleFuRRRious"            -> "AnecdhOt Surprix"
   "Epi Boom"                -> "SeintX"
   "EquiNoX"                 -> "SthOtouxDouX"
   "Eva"                     -> "Smile"
@@ -635,6 +657,7 @@ digraph ArbreFal {
   "Huggiz"                  -> "Dopler"
   "Hénaff"                  -> "Pokudex"
   "Hénaff"                  -> "Worms"
+  "ISTanBoobs"              -> "Chat Norris"
   "IsotopX"                 -> "Kinder"
   "JFPLG"                   -> "Autoroute"
   "Jason"                   -> "Farinelli"
@@ -651,6 +674,7 @@ digraph ArbreFal {
   "KetchuPipe"              -> "Ludimime"
   "Kinder"                  -> "AlucARD"
   "Kiss"                    -> "Couscous Boulette"
+  "Kleptocard"              -> "ISTanBoobs"
   "Klonti"                  -> "ScandalTreuse"
   "Knapis TOM"              -> "RamaDiane PutKassTOM"
   "KonSanguine"             -> "Dexter"
@@ -664,6 +688,7 @@ digraph ArbreFal {
   "LaVieille"               -> "Tagada"
   "LaVieille"               -> "Toad"
   "Lalane"                  -> "VDMKinectX"
+  "Lama"                    -> "Pucelle"
   "Lapile"                  -> "Ricola"
   "Lapinsette"              -> "RaidRed"
   "Le Belge"                -> "Douillette"
@@ -696,8 +721,10 @@ digraph ArbreFal {
   "Minorette"               -> "Rainette"
   "Molloss"                 -> "GayTA"
   "Molloss"                 -> "Petit Poney Rose"
+  "Momo R Ectus"            -> "Casanova"
   "Mouillette"              -> "Auhazard"
   "Moustache"               -> "Mèche"
+  "Moustrique"              -> "Kleptocard"
   "Mr Tout Nu"              -> "DanceFloor"
   "Mr l'Ambassadeur Droopy" -> "Auhazard"
   "Mèche"                   -> "Kinder"
@@ -706,6 +733,7 @@ digraph ArbreFal {
   "Napiléon"                -> "Epi Boom"
   "Nokia"                   -> "YOLOndi"
   "Numerobis"               -> "Mèche"
+  "Obvious40"               -> "ThunderStuck"
   "Otiste2000"              -> "TOMtonnoir"
   "Oupsm"                   -> "Deuz"
   "Oupsm"                   -> "Douillette"
@@ -713,6 +741,7 @@ digraph ArbreFal {
   "Oxitane"                 -> "DallAs"
   "Oxitane"                 -> "Worms"
   "Pachyboulette"           -> "Père Chartreux"
+  "Paco"                    -> "Corps Nichon"
   "Pala"                    -> "DanceFloor"
   "Pam"                     -> "Durix"
   "Papotin"                 -> "MessiX"
@@ -724,15 +753,16 @@ digraph ArbreFal {
   "Pinocchio"               -> "AlucARD"
   "Pinocchio"               -> "Lotus"
   "Pipaille"                -> "VDMKinectX"
-  "Pippin"                  -> "DiabSainthe"
+  "Pippin"                  -> "Diab Sainthe"
   "Pokudex"                 -> "SaChaRose"
+  "Polype"                  -> "Tabasco"
   "PoudreuZ"                -> "Jekyll"
   "PoudreuZ"                -> "Sandy"
+  "Pucelle"                 -> "Moustrique"
   "Pumba"                   -> "HP"
   "Pumba"                   -> "Seb"
   "Père Chartreux"          -> "Alcaline"
   "Père Chartreux"          -> "Audrey"
-  "Obvious40"               -> "ThunderStuck"
   "RaidRed"                 -> "Klonti"
   "Rainette"                -> "Romain2"
   "RamaDiane PutKassTOM"    -> "TOM JagerFeeld"
@@ -761,7 +791,8 @@ digraph ArbreFal {
   "Shrek"                   -> "Absinthe"
   "Smile"                   -> "Uno"
   "So Late"                 -> "Redboule"
-  "Solumedor"               -> "DiabSainthe"
+  "SoluMedor"               -> "Chat Norris"
+  "SoluMedor"               -> "Diab Sainthe"
   "Sophie"                  -> "Guignol"
   "Spawwow"                 -> "Craziiiiii"
   "Sperminaroze"            -> "Rozeme"
@@ -769,6 +800,7 @@ digraph ArbreFal {
   "TOM JagerFeeld"          -> "Meme0TechNik"
   "TOM Juan"                -> "Knapis TOM"
   "TOMtonnoir"              -> "TOM Juan"
+  "Tabasco"                 -> "Corps Nichon"
   "Tagada"                  -> "Rainette"
   "Targayte"                -> "Klonti"
   "TaspégiC"                -> "Sperminaroze"
@@ -785,6 +817,7 @@ digraph ArbreFal {
   "TiTang"                  -> "Scuz"
   "Toad"                    -> "Clito"
   "Toonies"                 -> "TiTang"
+  "Tutu"                    -> "Polype"
   "Uno"                     -> "Jekyll"
   "Uno"                     -> "Le Blond"
   "VDMKinectX"              -> "Epi Boom"
