@@ -92,6 +92,7 @@ N [$.meta != "year"] {
     break;
 
   case "IPP":
+    ville = "Paris";
   case "Ingé":
     ++inge;
     break;
