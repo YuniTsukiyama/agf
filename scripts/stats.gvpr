@@ -42,7 +42,12 @@ BEG_G {
   int inconnue_v     = 0;
   int non_reconnue_v = 0;
 
+  string first_missing_infos = "";
+  string first_missing_pms   = "";
+
+  $tvroot = node($, "SthOtouxDouX");
   $tvnext = NULL;
+  $tvtype = TV_bfs;
 }
 
 N [$.meta != "year"] {
@@ -231,6 +236,21 @@ N [$.meta != "year"] {
     printf(2, "avertissement: ville non reconnue `%s'\n", ville);
     ++non_reconnue_v;
   }
+
+  // Stocker la première personne avec des infos manquantes
+  if ((first_missing_infos == "")
+      && ((filiere == "") || (filiere == "?")
+         || (ville == "") || (ville == "?")))
+  {
+    first_missing_infos = $.name;
+  }
+
+  // Stocker la première personne avec des pms manquants
+  if ((first_missing_pms == "")
+      && (indegreeOf($G, $) < 2))
+  {
+    first_missing_pms = $.name;
+  }
 }
 
 END {
@@ -279,4 +299,8 @@ END {
   printf("Inconnue    : %2d\n", inconnue_v);
   if (non_reconnue_v > 0)
     printf("Non-reconnues : %d\n", non_reconnue_v);
+
+  printf("\nPremière personne avec infos manquantes : `%s'\n",
+         first_missing_infos);
+  printf("Première personne avec PMs manquants : `%s'\n", first_missing_pms);
 }
