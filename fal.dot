@@ -30,6 +30,7 @@ digraph ArbreFal {
   "Dantach"                 [ label="\N\nBTS Lyon"                             ]
   "Kinder"                  [ label="\N\nBTS_Optique Grenoble"                 ]
   "La Douve"                [ label="\N\nIUT Valence"                          ]
+  "Le Troll"                [ label="\N\nBTS Reims"                            ]
   "Léo"                     [ label="\N\nIUT ?"                                ] // Probablement Grenoble
   "SLIMEr"                  [ label="\N\nBTS Grenoble"                         ]
   "Taz"                     [ label="\N\nIUT Grenoble"                         ]
@@ -64,6 +65,7 @@ digraph ArbreFal {
   "Astrid"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
   "Carole"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
   "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ]
+  "Fun"                     [ label="\N\nDroit Reims"                          ]
   "Guignol"                 [ label="\N\nDroit Grenoble"                       ] // 1 seule PM
   "Huggiz"                  [ label="\N\nDroit Grenoble"                       ]
   "Pala"                    [ label="\N\nDroit Grenoble"                       ]
@@ -640,6 +642,7 @@ digraph ArbreFal {
   "Fritoupompri"            -> "Big Bisous"
   "Fritoupompri"            -> "Fucks Bunny"
   "Fucks Bunny"             -> "Féelin ONapalm"
+  "Fun"                     -> "Vache6micJudas"
   "Féelin ONapalm"          -> "FeuFéeLeeY"
   "Gala"                    -> "Mayol"
   "Galopatetik"             -> "Fucks Bunny"
@@ -694,6 +697,7 @@ digraph ArbreFal {
   "Le Belge"                -> "Douillette"
   "Le Blond"                -> "CraKotte"
   "Le Cul d'ta Maman"       -> "KetchuPipe"
+  "Le Troll"                -> "Vache6micJudas"
   "LeDoyen"                 -> "IsotopX"
   "LeMoch"                  -> "Bigbisou"
   "LeMoch"                  -> "La Méloche"
