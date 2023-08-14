@@ -156,6 +156,7 @@ digraph ArbreFal {
   "Artilleriz Cantonais"    [ label="\N\nMédecine PO"                          ]
   "Aurélie2"                [ label="\N\nMédecine Grenoble"                    ]
   "Avrel"                   [ label="\N\nMédecine Grenoble"                    ]
+  "CYPikaJoint"             [ label="\N\nMédecine KB"                          ]
   "Casanova"                [ label="\N\nMédecine PO"                          ]
   "Chat Norris"             [ label="\N\nMédecine PO"                          ]
   "Claire"                  [ label="\N\nMédecine Grenoble"                    ] // Ville probable
@@ -174,13 +175,16 @@ digraph ArbreFal {
   "L'orphelin"              [ label="\N\nMédecine Grenoble"                    ] // Autre PM inconnu
   "LBoy"                    [ label="\N\nMédecine ?"                           ] // Pas PO je pense
   "Lama"                    [ label="\N\nMédecine PO"                          ]
+  "LaserpitiuMFMF"          [ label="\N\nMédecine KB"                          ]
   "Lili"                    [ label="\N\nMédecine ?"                           ] // Probablement Grenoble
   "Loque Ness"              [ label="\N\nMédecine KB"                          ]
   "Majorett"                [ label="\N\nMédecine Marseille"                   ]
+  "MaterazZIZI"             [ label="\N\nMédecine KB"                          ]
   "Momo R Ectus"            [ label="\N\nMédecine PO"                          ]
   "Moustrique"              [ label="\N\nMédecine PO"                          ]
   "Otiste2000"              [ label="\N\nMédecine Créteil"                     ]
   "Paco"                    [ label="\N\nMédecine PO"                          ]
+  "PloukreASS"              [ label="\N\nMédecine KB"                          ]
   "Polype"                  [ label="\N\nMédecine PO"                          ]
   "Pucelle"                 [ label="\N\nMédecine PO"                          ]
   "Pumba"                   [ label="\N\nMédecine Nancy"                       ]
@@ -539,6 +543,7 @@ digraph ArbreFal {
       "Meme0TechNik";
     }
     subgraph 2018 { rank=same; 2018;
+      "Loque Ness";
     }
     subgraph 2019 { rank=same; 2019;
       "Obvious40";
@@ -597,6 +602,7 @@ digraph ArbreFal {
   "Bisounours"              -> "Redboule"
   "Béé"                     -> "MessiX"
   "CHArette"                -> "Pala"
+  "CYPikaJoint"             -> "LaserpitiuMFMF"
   "Caféine"                 -> "Nokia"
   "Carole"                  -> "LaVieille"
   "Casanova"                -> "SoluMedor"
@@ -698,6 +704,7 @@ digraph ArbreFal {
   "Lama"                    -> "Pucelle"
   "Lapile"                  -> "Ricola"
   "Lapinsette"              -> "RaidRed"
+  "LaserpitiuMFMF"          -> "Loque Ness"
   "Le Belge"                -> "Douillette"
   "Le Blond"                -> "CraKotte"
   "Le Cul d'ta Maman"       -> "KetchuPipe"
@@ -720,6 +727,7 @@ digraph ArbreFal {
   "Manus"                   -> "Deuz"
   "Marcel Pouet Pouet"      -> "Catapu(l)te"
   "Marie-Laure"             -> "Tagada"
+  "MaterazZIZI"             -> "Loque Ness"
   "Mathou"                  -> "Obvious40"
   "Matthieu"                -> "Le Blond"
   "Mayol"                   -> "Scuz"
@@ -763,6 +771,7 @@ digraph ArbreFal {
   "Pinocchio"               -> "Lotus"
   "Pipaille"                -> "VDMKinectX"
   "Pippin"                  -> "Diab Sainthe"
+  "PloukreASS"              -> "LaserpitiuMFMF"
   "Pokudex"                 -> "SaChaRose"
   "Polype"                  -> "Tabasco"
   "PoudreuZ"                -> "Jekyll"
