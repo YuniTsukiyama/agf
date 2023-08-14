@@ -63,6 +63,7 @@ digraph ArbreFal {
 
   node [ fillcolor="red", fontcolor=black ]
   "Astrid"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
+  "BouillhOt"               [ label="\N\nDroit Paris"                          ] // Versailles
   "Carole"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
   "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ]
   "Fun"                     [ label="\N\nDroit Reims"                          ]
@@ -108,12 +109,14 @@ digraph ArbreFal {
   "Bioshop"                 [ label="\N\nIngé Créteil"                         ]
   "Deuz"                    [ label="\N\nIngé Grenoble"                        ]
   "Dopler"                  [ label="\N\nIngé Grenoble"                        ]
+  "DrHot the Beast"         [ label="\N\nIPP"                                  ]
   "Durix"                   [ label="\N\nIngé Grenoble"                        ]
   "Dédé"                    [ label="\N\nIngé Grenoble"                        ]
   "EquiNoX"                 [ label="\N\nIngé Grenoble"                        ]
   "GayTA"                   [ label="\N\nIPP"                                  ]
   "Gringotts"               [ label="\N\nIngé Grenoble"                        ]
   "HP"                      [ label="\N\nIngé Grenoble"                        ]
+  "KamoulhOt"               [ label="\N\nIPP"                                  ]
   "Kiss"                    [ label="\N\nIngé Nice"                            ]
   "Ludimime"                [ label="\N\nIPP"                                  ]
   "Manus"                   [ label="\N\nIngé Grenoble"                        ]
@@ -335,7 +338,6 @@ digraph ArbreFal {
   node [ fillcolor="black", fontcolor=white ]
   "Bic"                     [ label="\N\n?"                                    ] // Probablement Nancy
   "Bisounours"              [ label="\N\n? Valence"                            ]
-  "BouillhOt"               [ label="\N\n?"                                    ]
   "Céline"                  [ label="\N\n?"                                    ] // Montpellier ? Gre ? SF ?
   "Didier"                  [ label="\N\n?"                                    ] // Eco Valence/Gre ? Surnom ou prénom ? valence ?
   "Dihast"                  [ label="\N\n? Rennes"                             ]
@@ -539,6 +541,7 @@ digraph ArbreFal {
       "YOLOndi";
     }
     subgraph 2016 { rank=same; 2016;
+      "BouillhOt";
     }
     subgraph 2017 { rank=same; 2017;
       "Meme0TechNik";
@@ -639,6 +642,7 @@ digraph ArbreFal {
   "Dopler"                  -> "Valjean"
   "Dorine"                  -> "Molloss"
   "Douillette"              -> "Méconium"
+  "DrHot the Beast"         -> "BouillhOt"
   "DucoPute"                -> "RamaDiane PutKassTOM"
   "Durix"                   -> "Bigbisou"
   "Dédé"                    -> "Durix"
@@ -685,6 +689,7 @@ digraph ArbreFal {
   "KKshate"                 -> "Mallaury"
   "Kalamity"                -> "Gringotts"
   "KaleeSiX"                -> "PingWinX"
+  "KamoulhOt"               -> "BouillhOt"
   "Kaporal"                 -> "Napiléon"
   "Ken Park"                -> "Hénaff"
   "KetchuPipe"              -> "Ludimime"
