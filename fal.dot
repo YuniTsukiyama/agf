@@ -335,6 +335,7 @@ digraph ArbreFal {
   node [ fillcolor="black", fontcolor=white ]
   "Bic"                     [ label="\N\n?"                                    ] // Probablement Nancy
   "Bisounours"              [ label="\N\n? Valence"                            ]
+  "BouillhOt"               [ label="\N\n?"                                    ]
   "Céline"                  [ label="\N\n?"                                    ] // Montpellier ? Gre ? SF ?
   "Didier"                  [ label="\N\n?"                                    ] // Eco Valence/Gre ? Surnom ou prénom ? valence ?
   "Dihast"                  [ label="\N\n? Rennes"                             ]
@@ -543,6 +544,7 @@ digraph ArbreFal {
       "Meme0TechNik";
     }
     subgraph 2018 { rank=same; 2018;
+      "AnecdhOt Surprix";
       "Loque Ness";
     }
     subgraph 2019 { rank=same; 2019;
@@ -600,6 +602,7 @@ digraph ArbreFal {
   "Bigbisou"                -> "Seb"
   "Bioshop"                 -> "TOM Juan"
   "Bisounours"              -> "Redboule"
+  "BouillhOt"               -> "AnecdhOt Surprix"
   "Béé"                     -> "MessiX"
   "CHArette"                -> "Pala"
   "CYPikaJoint"             -> "LaserpitiuMFMF"
