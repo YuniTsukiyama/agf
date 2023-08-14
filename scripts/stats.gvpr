@@ -30,6 +30,7 @@ BEG_G {
   int metz           = 0;
   int montpellier    = 0;
   int nancy          = 0;
+  int nantes         = 0;
   int nice           = 0;
   int nimes          = 0;
   int paris          = 0;
@@ -132,6 +133,7 @@ N [$.meta != "year"] {
     ++sf;
     break;
 
+  case "Biologie":
   case "Sciences":
     ++sciences;
     break;
@@ -185,6 +187,10 @@ N [$.meta != "year"] {
 
   case "Nancy":
     ++nancy;
+    break;
+
+  case "Nantes":
+    ++nantes;
     break;
 
   case "Nice":
@@ -287,6 +293,7 @@ END {
   printf("Metz        : %d\n", metz);
   printf("Montpellier : %d\n", montpellier);
   printf("Nancy       : %d\n", nancy);
+  printf("Nantes      : %d\n", nantes);
   printf("Nice        : %d\n", nice);
   printf("Nimes       : %d\n", nimes);
   printf("Paris       : %d\n", paris);

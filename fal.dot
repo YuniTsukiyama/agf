@@ -263,6 +263,7 @@ digraph ArbreFal {
   "Amibe"                   [ label="\N\nSciences Grenoble"                    ] // Môman
   "Auhazard"                [ label="\N\nSciences Paris"                       ]
   "Autoroute"               [ label="\N\nSciences Toulouse"                    ]
+  "Caféine"                 [ label="\N\nBiologie Nantes"                      ]
   "Casper"                  [ label="\N\nSciences Angers"                      ]
   "Cerise"                  [ label="\N\nSciences Grenoble"                    ]
   "CraKotte"                [ label="\N\nSciences Grenoble"                    ]
@@ -342,6 +343,7 @@ digraph ArbreFal {
   "KKshate"                 [ label="\N\n?"                                    ] // Probablement Nancy
   "Lapinsette"              [ label="\N\n? Angers"                             ]
   "LeDoyen"                 [ label="\N\n? Valence"                            ]
+  "Neutre"                  [ label="\N\n?"                                    ]
   "Pachyboulette"           [ label="\N\n? Grenoble"                           ]
   "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
   "So Late"                 [ label="\N\n?"                                    ]
@@ -529,6 +531,7 @@ digraph ArbreFal {
       "KaleeSiX";
       "TOM JagerFeeld";
       "VisseVersa";
+      "YOLOndi";
     }
     subgraph 2016 { rank=same; 2016;
     }
@@ -594,6 +597,7 @@ digraph ArbreFal {
   "Bisounours"              -> "Redboule"
   "Béé"                     -> "MessiX"
   "CHArette"                -> "Pala"
+  "Caféine"                 -> "Nokia"
   "Carole"                  -> "LaVieille"
   "Casanova"                -> "SoluMedor"
   "Casper"                  -> "RaidRed"
@@ -735,6 +739,7 @@ digraph ArbreFal {
   "Mèche"                   -> "Sandy"
   "Méconium"                -> "Oxitane"
   "Napiléon"                -> "Epi Boom"
+  "Neutre"                  -> "Nokia"
   "Nokia"                   -> "YOLOndi"
   "Numerobis"               -> "Mèche"
   "Obvious40"               -> "ThunderStuck"
