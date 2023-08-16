@@ -13,6 +13,7 @@ BEG_G {
   int inge           = 0;
   int jaune          = 0;
   int med            = 0;
+  int osteo          = 0;
   int paramed        = 0;
   int pharma         = 0;
   int sf             = 0;
@@ -114,6 +115,10 @@ N [$.meta != "year"] {
 
   case "Médecine":
     ++med;
+    break;
+
+  case "Ostéo":
+    ++osteo;
     break;
 
   case "Ergo":
@@ -280,6 +285,7 @@ END {
   printf("Écoles d'Ingénieurs                           : %2d\n", inge);
   printf("Sciences Humaines                             : %2d\n", jaune);
   printf("Médecine                                      : %2d\n", med);
+  printf("Ostéopathie                                   : %2d\n", osteo);
   printf("Paramédical                                   : %2d\n", paramed);
   printf("Pharmacie                                     : %2d\n", pharma);
   printf("Sage-Femme                                    : %2d\n", sf);
