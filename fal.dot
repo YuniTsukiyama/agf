@@ -201,6 +201,12 @@ digraph ArbreFal {
   "Zaza"                    [ label="\N\nMédecine ?"                           ]
 
 
+  // Osthéopathie
+
+  node [ fillcolor="blue4", fontcolor=white ]
+  "PCLF"                    [ label="\N\nOstéo Paris"                          ]
+
+
   // Paramédical
 
   node [ fillcolor="hotpink", fontcolor=black ]
@@ -247,6 +253,7 @@ digraph ArbreFal {
   "Atol"                    [ label="\N\nSage-Femme ?"                         ] // Probablement Grenoble
   "DigniTruc"               [ label="\N\nSage-Femme Grenoble"                  ]
   "Douillette"              [ label="\N\nSage-Femme Grenoble"                  ]
+  "DynamhOt"                [ label="\N\nSage-Femme Paris"                     ] // Créatrice des Hot
   "Eva"                     [ label="\N\nSage-Femme Grenoble"                  ]
   "FeuFéeLeeY"              [ label="\N\nSage-Femme Paris"                     ]
   "Freudette"               [ label="\N\nSage-Femme Grenoble"                  ]
@@ -534,6 +541,7 @@ digraph ArbreFal {
       "Valjean";
     }
     subgraph 2015 { rank=same; 2015;
+      "DrHot the Beast";
       "Gringotts";
       "KaleeSiX";
       "TOM JagerFeeld";
@@ -645,6 +653,7 @@ digraph ArbreFal {
   "DrHot the Beast"         -> "BouillhOt"
   "DucoPute"                -> "RamaDiane PutKassTOM"
   "Durix"                   -> "Bigbisou"
+  "DynamhOt"                -> "DrHot the Beast"
   "Dédé"                    -> "Durix"
   "Echantiion"              -> "Oxitane"
   "EleFuRRRious"            -> "AnecdhOt Surprix"
@@ -765,6 +774,7 @@ digraph ArbreFal {
   "Oupsm"                   -> "Valentine"
   "Oxitane"                 -> "DallAs"
   "Oxitane"                 -> "Worms"
+  "PCLF"                    -> "DrHot the Beast"
   "Pachyboulette"           -> "Père Chartreux"
   "Paco"                    -> "Corps Nichon"
   "Pala"                    -> "DanceFloor"
