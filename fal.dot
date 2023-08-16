@@ -29,6 +29,7 @@ digraph ArbreFal {
   node [ fillcolor="white", fontcolor=black ]
   "Absinthe"                [ label="\N\nIUT Nice"                             ]
   "Dantach"                 [ label="\N\nBTS Lyon"                             ]
+  "El Général Charette"     [ label="\N\nBTS Nantes"                           ]
   "Kinder"                  [ label="\N\nBTS_Optique Grenoble"                 ]
   "La Douve"                [ label="\N\nIUT Valence"                          ]
   "Le Troll"                [ label="\N\nBTS Reims"                            ]
@@ -299,6 +300,7 @@ digraph ArbreFal {
   "Florie"                  [ label="\N\nSciences Grenoble"                    ]
   "Fritoupompri"            [ label="\N\nSciences Paris"                       ]
   "Gala"                    [ label="\N\nSciences Grenoble"                    ]
+  "Geek De Cave"            [ label="\N\nSciences Nantes"                      ]
   "HGEL"                    [ label="\N\nSciences Strasbourg"                  ]
   "Homotractus"             [ label="\N\nSciences Grenoble"                    ]
   "IsotopX"                 [ label="\N\nSciences Valence"                     ]
@@ -521,6 +523,7 @@ digraph ArbreFal {
     subgraph 2011 { rank=same; 2011;
       "Artichaude";
       "Balthazar";
+      "Caféine";
       "GayTA";
       "L'infirme";
       "MessiX";
@@ -674,6 +677,7 @@ digraph ArbreFal {
   "DynamhOt"                -> "DrHot the Beast"
   "Dédé"                    -> "Durix"
   "Echantiion"              -> "Oxitane"
+  "El Général Charette"     -> "Caféine"
   "EleFuRRRious"            -> "AnecdhOt Surprix"
   "Epi Boom"                -> "SeintX"
   "EquiNoX"                 -> "SthOtouxDouX"
@@ -693,6 +697,7 @@ digraph ArbreFal {
   "Galopatetik"             -> "Fucks Bunny"
   "GayTA"                   -> "Ludimime"
   "Gaëlle"                  -> "Audrey"
+  "Geek De Cave"            -> "Caféine"
   "Glasgow 4"               -> "L'orphelin"
   "Gringotts"               -> "EquiNoX"
   "Grs Bsx"                 -> "Mr Tout Nu"
