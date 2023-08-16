@@ -51,6 +51,7 @@ digraph ArbreFal {
   "Big Bisous"              [ label="\N\nDentaire Paris"                       ]
   "Charles"                 [ label="\N\nDentaire Lyon"                        ]
   "Galopatetik"             [ label="\N\nDentaire Paris"                       ]
+  "Jardiland"               [ label="\N\nDentaire Paris"                       ]
 
 
   // Écoles de commerce, gestion, communication, journalisme
@@ -205,6 +206,7 @@ digraph ArbreFal {
   // Osthéopathie
 
   node [ fillcolor="blue4", fontcolor=white ]
+  "Burn"                    [ label="\N\nOstéo Paris"                          ]
   "PCLF"                    [ label="\N\nOstéo Paris"                          ]
   "Papillax"                [ label="\N\nOstéo Paris"                          ]
 
@@ -529,6 +531,7 @@ digraph ArbreFal {
       "Epi Boom";
       "Fucks Bunny";
       "KetchuPipe";
+      "PCLF";
       "SaChaRose";
     }
     subgraph "2012-2" { rank=same; "2012-2";
@@ -618,6 +621,7 @@ digraph ArbreFal {
   "Bioshop"                 -> "TOM Juan"
   "Bisounours"              -> "Redboule"
   "BouillhOt"               -> "AnecdhOt Surprix"
+  "Burn"                    -> "PCLF"
   "Béé"                     -> "MessiX"
   "CHArette"                -> "Pala"
   "CYPikaJoint"             -> "LaserpitiuMFMF"
@@ -693,6 +697,7 @@ digraph ArbreFal {
   "ISTanBoobs"              -> "Chat Norris"
   "IsotopX"                 -> "Kinder"
   "JFPLG"                   -> "Autoroute"
+  "Jardiland"               -> "PCLF"
   "Jason"                   -> "Farinelli"
   "Jeff"                    -> "Taz"
   "Jekyll"                  -> "Napiléon"
