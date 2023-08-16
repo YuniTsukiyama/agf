@@ -5,6 +5,7 @@ digraph ArbreFal {
    */
 
   ranksep="0.5 equally";
+  newrank=true;
   node [ shape=box, style=striped ]
 
 
