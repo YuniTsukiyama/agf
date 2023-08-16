@@ -101,6 +101,7 @@ digraph ArbreFal {
   // Écoles d'ingénieurs
 
   node [ fillcolor="blue3:black", fontcolor=white ]
+  "#LoupgarhOt"             [ label="\N\nIPP"                                  ]
   "Absynthe"                [ label="\N\nIngé Nice"                            ]
   "Achess"                  [ label="\N\nIngé Grenoble"                        ] // Un ami
   "Alt F4"                  [ label="\N\nIngé Grenoble"                        ]
@@ -205,6 +206,7 @@ digraph ArbreFal {
 
   node [ fillcolor="blue4", fontcolor=white ]
   "PCLF"                    [ label="\N\nOstéo Paris"                          ]
+  "Papillax"                [ label="\N\nOstéo Paris"                          ]
 
 
   // Paramédical
@@ -544,6 +546,7 @@ digraph ArbreFal {
       "DrHot the Beast";
       "Gringotts";
       "KaleeSiX";
+      "KamoulhOt";
       "TOM JagerFeeld";
       "VisseVersa";
       "YOLOndi";
@@ -581,6 +584,7 @@ digraph ArbreFal {
    * Liens
    */
 
+  "#LoupgarhOt"             -> "KamoulhOt"
   "Absinthe"                -> "Mr Tout Nu"
   "Absynthe"                -> "Couscous Boulette"
   "Achess"                  -> "Balthazar"
@@ -779,6 +783,7 @@ digraph ArbreFal {
   "Paco"                    -> "Corps Nichon"
   "Pala"                    -> "DanceFloor"
   "Pam"                     -> "Durix"
+  "Papillax"                -> "KamoulhOt"
   "Papotin"                 -> "MessiX"
   "Patocyte"                -> "TOMtonnoir"
   "Peach"                   -> "Petit Poney Rose"
