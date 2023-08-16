@@ -121,6 +121,7 @@ digraph ArbreFal {
   "HP"                      [ label="\N\nIngé Grenoble"                        ]
   "KamoulhOt"               [ label="\N\nIPP"                                  ]
   "Kiss"                    [ label="\N\nIngé Nice"                            ]
+  "Kosovar"                 [ label="\N\nIngé Grenoble"                        ]
   "Ludimime"                [ label="\N\nIPP"                                  ]
   "Manus"                   [ label="\N\nIngé Grenoble"                        ]
   "Meme0TechNik"            [ label="\N\nIPP"                                  ]
@@ -208,6 +209,8 @@ digraph ArbreFal {
 
   node [ fillcolor="blue4", fontcolor=white ]
   "Burn"                    [ label="\N\nOstéo Paris"                          ]
+  "Dredi"                   [ label="\N\nOstéo Paris"                          ]
+  "Frithoven"               [ label="\N\nOstéo Paris"                          ]
   "PCLF"                    [ label="\N\nOstéo Paris"                          ]
   "Papillax"                [ label="\N\nOstéo Paris"                          ]
 
@@ -216,6 +219,7 @@ digraph ArbreFal {
 
   node [ fillcolor="hotpink", fontcolor=black ]
   "Audrey"                  [ label="\N\nInf Grenoble"                         ]
+  "H2Ocom3TOM"              [ label="\N\nParamed Paris"                        ]
   "Fanfoué"                 [ label="\N\nInf Grenoble"                         ]
   "Knapis TOM"              [ label="\N\nParamed Créteil"                      ]
   "Lalane"                  [ label="\N\nPrépa_Inf Grenoble"                   ] // Ville pas sûre
@@ -318,6 +322,7 @@ digraph ArbreFal {
   "RaidRed"                 [ label="\N\nSciences Angers"                      ]
   "Rainette"                [ label="\N\nSciences Grenoble"                    ]
   "RamaDiane PutKassTOM"    [ label="\N\nSciences Paris"                       ]
+  "RockTOMplait"            [ label="\N\nSciences Paris"                       ]
   "Romain2"                 [ label="\N\nSciences Grenoble"                    ]
   "Ross"                    [ label="\N\nSciences Grenoble"                    ]
   "SaChaRose"               [ label="\N\nSciences Grenoble"                    ]
@@ -364,6 +369,7 @@ digraph ArbreFal {
   "LeDoyen"                 [ label="\N\n? Valence"                            ]
   "Neutre"                  [ label="\N\n?"                                    ]
   "Pachyboulette"           [ label="\N\n? Grenoble"                           ]
+  "Patfol"                  [ label="\N\n? Paris"                              ] // IF
   "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
   "So Late"                 [ label="\N\n?"                                    ]
   "Taxi"                    [ label="\N\n?"                                    ]
@@ -539,6 +545,7 @@ digraph ArbreFal {
       "Pippin";
     }
     subgraph 2013 { rank=same; 2013;
+      "Papillax";
       "RamaDiane PutKassTOM";
       "SeintX";
     }
@@ -660,6 +667,7 @@ digraph ArbreFal {
   "Dorine"                  -> "Molloss"
   "Douillette"              -> "Méconium"
   "DrHot the Beast"         -> "BouillhOt"
+  "Dredi"                   -> "Papillax"
   "DucoPute"                -> "RamaDiane PutKassTOM"
   "Durix"                   -> "Bigbisou"
   "DynamhOt"                -> "DrHot the Beast"
@@ -674,6 +682,7 @@ digraph ArbreFal {
   "FeuFéeLeeY"              -> "TOM JagerFeeld"
   "Florie"                  -> "Gala"
   "Freudette"               -> "Hénaff"
+  "Frithoven"               -> "Dredi"
   "Fritoupompri"            -> "Big Bisous"
   "Fritoupompri"            -> "Fucks Bunny"
   "Fucks Bunny"             -> "Féelin ONapalm"
@@ -689,6 +698,7 @@ digraph ArbreFal {
   "Guignol"                 -> "LaVieille"
   "Guillaume"               -> "Romain2"
   "Guilleu"                 -> "Mouillette"
+  "H2Ocom3TOM"              -> "Papillax"
   "HGEL"                    -> "Peach"
   "HP"                      -> "Manus"
   "Homotractus"             -> "Amibe"
@@ -718,6 +728,7 @@ digraph ArbreFal {
   "Klonti"                  -> "ScandalTreuse"
   "Knapis TOM"              -> "RamaDiane PutKassTOM"
   "KonSanguine"             -> "Dexter"
+  "Kosovar"                 -> "Dredi"
   "Kuf"                     -> "HP"
   "L'infirme"               -> "Spip"
   "L'orphelin"              -> "L'infirme"
@@ -791,6 +802,7 @@ digraph ArbreFal {
   "Pam"                     -> "Durix"
   "Papillax"                -> "KamoulhOt"
   "Papotin"                 -> "MessiX"
+  "Patfol"                  -> "H2Ocom3TOM"
   "Patocyte"                -> "TOMtonnoir"
   "Peach"                   -> "Petit Poney Rose"
   "Petit Poney Rose"        -> "GayTA"
@@ -818,6 +830,7 @@ digraph ArbreFal {
   "Rebelote"                -> "Le Cul d'ta Maman"
   "Redboule"                -> "Craziiiiii"
   "Ricola"                  -> "DucoPute"
+  "RockTOMplait"            -> "H2Ocom3TOM"
   "RockquhOt SATfredi"      -> "ThunderStuck"
   "Rodrigo"                 -> "Gaëlle"
   "Romain1"                 -> "Ramucho"
