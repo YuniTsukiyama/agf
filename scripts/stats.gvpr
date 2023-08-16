@@ -25,6 +25,7 @@ BEG_G {
   int angers         = 0;
   int creteil        = 0;
   int grenoble       = 0;
+  int limoges        = 0;
   int lyon           = 0;
   int marseille      = 0;
   int metz           = 0;
@@ -169,6 +170,10 @@ N [$.meta != "year"] {
     ++grenoble;
     break;
 
+  case "Limoges":
+    ++limoges;
+    break;
+
   case "Lyon":
     ++lyon;
     break;
@@ -288,6 +293,7 @@ END {
   printf("Angers      : %d\n", angers);
   printf("Creteil     : %d\n", creteil);
   printf("Grenoble    : %d\n", grenoble);
+  printf("Limoges     : %d\n", limoges);
   printf("Lyon        : %d\n", lyon);
   printf("Marseille   : %d\n", marseille);
   printf("Metz        : %d\n", metz);

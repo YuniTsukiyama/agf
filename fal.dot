@@ -33,6 +33,7 @@ digraph ArbreFal {
   "La Douve"                [ label="\N\nIUT Valence"                          ]
   "Le Troll"                [ label="\N\nBTS Reims"                            ]
   "Léo"                     [ label="\N\nIUT ?"                                ] // Probablement Grenoble
+  "Neutre"                  [ label="\N\nIUT Limoges"                          ]
   "SLIMEr"                  [ label="\N\nBTS Grenoble"                         ]
   "Taz"                     [ label="\N\nIUT Grenoble"                         ]
   "TiTang"                  [ label="\N\nIUT Valence"                          ]
@@ -286,7 +287,7 @@ digraph ArbreFal {
   "Amibe"                   [ label="\N\nSciences Grenoble"                    ] // Môman
   "Auhazard"                [ label="\N\nSciences Paris"                       ]
   "Autoroute"               [ label="\N\nSciences Toulouse"                    ]
-  "Caféine"                 [ label="\N\nBiologie Nantes"                      ]
+  "Caféine"                 [ label="\N\nSciences Nantes"                      ]
   "Casper"                  [ label="\N\nSciences Angers"                      ]
   "Cerise"                  [ label="\N\nSciences Grenoble"                    ]
   "CraKotte"                [ label="\N\nSciences Grenoble"                    ]
@@ -367,7 +368,6 @@ digraph ArbreFal {
   "KKshate"                 [ label="\N\n?"                                    ] // Probablement Nancy
   "Lapinsette"              [ label="\N\n? Angers"                             ]
   "LeDoyen"                 [ label="\N\n? Valence"                            ]
-  "Neutre"                  [ label="\N\n?"                                    ]
   "Pachyboulette"           [ label="\N\n? Grenoble"                           ]
   "Patfol"                  [ label="\N\n? Paris"                              ] // IF
   "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
@@ -538,6 +538,7 @@ digraph ArbreFal {
       "Epi Boom";
       "Fucks Bunny";
       "KetchuPipe";
+      "Nokia";
       "PCLF";
       "SaChaRose";
     }
