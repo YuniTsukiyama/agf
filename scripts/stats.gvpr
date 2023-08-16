@@ -68,7 +68,7 @@ N [$.meta != "year"] {
   case "Beaux-Arts":
   case "Game_Design":
   case "Théatre":
-    ++iut_bts;
+    ++arts;
     break;
 
   case "BTS":
