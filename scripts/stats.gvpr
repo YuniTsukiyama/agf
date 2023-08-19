@@ -41,6 +41,7 @@ BEG_G {
   int rouen          = 0;
   int strasbourg     = 0;
   int toulouse       = 0;
+  int tours          = 0;
   int valence        = 0;
   int inconnue_v     = 0;
   int non_reconnue_v = 0;
@@ -144,6 +145,7 @@ N [$.meta != "year"] {
     ++sciences;
     break;
 
+  case "Histoire_de_l'Art":
   case "IPP/Sciences":
   case "Sciences/?":
   case "Sciences/Paramed":
@@ -239,6 +241,10 @@ N [$.meta != "year"] {
     ++toulouse;
     break;
 
+  case "Tours":
+    ++tours;
+    break;
+
   case "Valence":
     ++valence;
     break;
@@ -314,6 +320,7 @@ END {
   printf("Rouen       : %d\n", rouen);
   printf("Strasbourg  : %d\n", strasbourg);
   printf("Toulouse    : %d\n", toulouse);
+  printf("Tours       : %d\n", tours);
   printf("Valence     : %d\n", valence);
   printf("Inconnue    : %2d\n", inconnue_v);
   if (non_reconnue_v > 0)

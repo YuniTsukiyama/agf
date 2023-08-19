@@ -352,6 +352,9 @@ digraph ArbreFal {
   node [ fillcolor="darkviolet:darkgreen", fontcolor=white ]
   "KonSanguine"             [ label="\N\nSciences/Pharma Grenoble"             ]
 
+  node [ fillcolor="dodgerblue2:gold", fontcolor=black ]
+  "Galoche"                 [ label="\N\nHistoire_de_l'Art Tours"              ]
+
 
   // Filière Inconnue
 
@@ -372,6 +375,7 @@ digraph ArbreFal {
   "LeDoyen"                 [ label="\N\n? Valence"                            ]
   "Pachyboulette"           [ label="\N\n? Grenoble"                           ]
   "Patfol"                  [ label="\N\n? Paris"                              ] // IF
+  "Puguet"                  [ label="\N\n? Limoges"                            ] // IF
   "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
   "So Late"                 [ label="\N\n?"                                    ]
   "Taxi"                    [ label="\N\n?"                                    ]
@@ -468,6 +472,7 @@ digraph ArbreFal {
       "Douillette";
       "Mayol";
       "Mr Tout Nu";
+      "Neutre";
       "Pala";
       "Romain2";
       "Uno";
@@ -694,6 +699,7 @@ digraph ArbreFal {
   "Fun"                     -> "Vache6micJudas"
   "Féelin ONapalm"          -> "FeuFéeLeeY"
   "Gala"                    -> "Mayol"
+  "Galoche"                 -> "Neutre"
   "Galopatetik"             -> "Fucks Bunny"
   "GayTA"                   -> "Ludimime"
   "Gaëlle"                  -> "Audrey"
@@ -824,6 +830,7 @@ digraph ArbreFal {
   "PoudreuZ"                -> "Jekyll"
   "PoudreuZ"                -> "Sandy"
   "Pucelle"                 -> "Moustrique"
+  "Puguet"                  -> "Neutre"
   "Pumba"                   -> "HP"
   "Pumba"                   -> "Seb"
   "Père Chartreux"          -> "Alcaline"
