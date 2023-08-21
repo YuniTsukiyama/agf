@@ -366,6 +366,7 @@ digraph ArbreFal {
   "Dihast"                  [ label="\N\n? Rennes"                             ]
   "Dorine"                  [ label="\N\n? Paris"                              ]
   "Glasgow 4"               [ label="\N\n?"                                    ] // Probablement Médecine
+  "Grand Vincent"           [ label="\N\n?"                                    ]
   "Guilleu"                 [ label="\N\n? Paris"                              ]
   "JFPLG"                   [ label="\N\n?"                                    ]
   "Jésus"                   [ label="\N\n?"                                    ] // Probablement Médecine
@@ -378,7 +379,9 @@ digraph ArbreFal {
   "Puguet"                  [ label="\N\n? Limoges"                            ] // IF
   "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
   "So Late"                 [ label="\N\n?"                                    ]
+  "Superman"                [ label="\N\n?"                                    ]
   "Taxi"                    [ label="\N\n?"                                    ]
+  "Trimen"                  [ label="\N\n?"                                    ]
 
 
   /*
@@ -413,6 +416,7 @@ digraph ArbreFal {
       "Le Belge";
     }
     subgraph 2001 { rank=same; 2001;
+      "Galoche";
       "Guignol";
       "Ross";
     }
@@ -705,6 +709,7 @@ digraph ArbreFal {
   "Gaëlle"                  -> "Audrey"
   "Geek De Cave"            -> "Caféine"
   "Glasgow 4"               -> "L'orphelin"
+  "Grand Vincent"           -> "Galoche"
   "Gringotts"               -> "EquiNoX"
   "Grs Bsx"                 -> "Mr Tout Nu"
   "Guignol"                 -> "LaVieille"
@@ -870,6 +875,7 @@ digraph ArbreFal {
   "Spawwow"                 -> "Craziiiiii"
   "Sperminaroze"            -> "Rozeme"
   "Spip"                    -> "DigniTruc"
+  "Superman"                -> "Trimen"
   "TOM JagerFeeld"          -> "Meme0TechNik"
   "TOM Juan"                -> "Knapis TOM"
   "TOMtonnoir"              -> "TOM Juan"
@@ -890,6 +896,7 @@ digraph ArbreFal {
   "TiTang"                  -> "Scuz"
   "Toad"                    -> "Clito"
   "Toonies"                 -> "TiTang"
+  "Trimen"                  -> "Galoche"
   "Tutu"                    -> "Polype"
   "Uno"                     -> "Jekyll"
   "Uno"                     -> "Le Blond"
