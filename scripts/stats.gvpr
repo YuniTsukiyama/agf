@@ -262,14 +262,16 @@ N [$.meta != "year"] {
   // Stocker la première personne avec des infos manquantes
   if ((first_missing_infos == "")
       && ((filiere == "") || (filiere == "?")
-         || (ville == "") || (ville == "?")))
+         || (ville == "") || (ville == "?"))
+      && !$.no_contact)
   {
     first_missing_infos = $.name;
   }
 
   // Stocker la première personne avec des pms manquants
   if ((first_missing_pms == "")
-      && (indegreeOf($G, $) < 2))
+      && (indegreeOf($G, $) < 2)
+      && !$.no_contact)
   {
     first_missing_pms = $.name;
   }

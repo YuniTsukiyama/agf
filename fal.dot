@@ -53,14 +53,20 @@ digraph ArbreFal {
   node [ fillcolor="darkorchid4", fontcolor=black ]
   "Big Bisous"              [ label="\N\nDentaire Paris"                       ]
   "Charles"                 [ label="\N\nDentaire Lyon"                        ]
-  "Galopatetik"             [ label="\N\nDentaire Paris"                       ]
+  "Galopatetik" [
+    label="\N\nDentaire Paris"
+    no_contact=true
+  ]
   "Jardiland"               [ label="\N\nDentaire Paris"                       ]
 
 
   // Écoles de commerce, gestion, communication, journalisme
 
   node [ fillcolor="red:darkgreen", fontcolor=black ]
-  "Mathou"                  [ label="\N\nCommunication Reims"                  ] // Pas de surnom
+  "Mathou" [
+    label="\N\nCommunication Reims"
+    no_contact=true
+  ] // Pas de surnom
 
 
   // Droit
@@ -191,7 +197,10 @@ digraph ArbreFal {
   "Lili"                    [ label="\N\nMédecine ?"                           ] // Probablement Grenoble
   "Loque Ness"              [ label="\N\nMédecine KB"                          ]
   "Majorett"                [ label="\N\nMédecine Marseille"                   ]
-  "MaterazZIZI"             [ label="\N\nMédecine KB"                          ]
+  "MaterazZIZI" [
+    label="\N\nMédecine KB"
+    no_contact=true
+  ]
   "Momo R Ectus"            [ label="\N\nMédecine PO"                          ]
   "Moustrique"              [ label="\N\nMédecine PO"                          ]
   "Otiste2000"              [ label="\N\nMédecine Créteil"                     ]
