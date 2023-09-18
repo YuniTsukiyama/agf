@@ -303,7 +303,7 @@ digraph ArbreFal {
   "Fritoupompri"            [ label="\N\nSciences Paris"                       ]
   "Gala"                    [ label="\N\nSciences Grenoble"                    ]
   "Geek De Cave"            [ label="\N\nSciences Nantes"                      ]
-  "HGEL"                    [ label="\N\nSciences Strasbourg"                  ]
+  "MGEL"                    [ label="\N\nSciences Strasbourg"                  ]
   "Homotractus"             [ label="\N\nSciences Grenoble"                    ]
   "IsotopX"                 [ label="\N\nSciences Valence"                     ]
   "Jekyll"                  [ label="\N\nSciences Grenoble"                    ]
@@ -719,7 +719,6 @@ digraph ArbreFal {
   "Guillaume"               -> "Romain2"
   "Guilleu"                 -> "Mouillette"
   "H2Ocom3TOM"              -> "Papillax"
-  "HGEL"                    -> "Peach"
   "HP"                      -> "Manus"
   "Homotractus"             -> "Amibe"
   "Huggiz"                  -> "Dopler"
@@ -733,7 +732,7 @@ digraph ArbreFal {
   "Jeff"                    -> "Taz"
   "Jekyll"                  -> "Napiléon"
   "Jésus"                   -> "L'infirme"
-  "KDO"                     -> "HGEL"
+  "KDO"                     -> "MGEL"
   "KKcouture"               -> "Mallaury"
   "KKshate"                 -> "Mallaury"
   "Kalamity"                -> "Gringotts"
@@ -777,6 +776,7 @@ digraph ArbreFal {
   "Ludimime"                -> "FeuFéeLeeY"
   "Léo"                     -> "CraKotte"
   "MAmie LUlu"              -> "Toad"
+  "MGEL"                    -> "Peach"
   "Majorett"                -> "Alcaline"
   "Mallaury"                -> "Catapu(l)te"
   "Mama"                    -> "Spip"
