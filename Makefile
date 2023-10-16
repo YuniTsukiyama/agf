@@ -24,6 +24,6 @@ stats: $(INPUT) $(SCRIPT_STATS)
 	gvpr -f $(SCRIPT_STATS) $<
 
 clean:
-	$(RM) '$(OUTPUT)' $(INT_FILE)
+	$(RM) $(INT_FILE)
 
 .PHONY: clean sub stats
