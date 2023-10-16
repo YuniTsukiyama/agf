@@ -36,6 +36,7 @@ digraph ArbreFal {
   "Léo"                     [ label="\N\nIUT ?"                                ] // Probablement Grenoble
   "Neutre"                  [ label="\N\nIUT Limoges"                          ]
   "SLIMEr"                  [ label="\N\nBTS Grenoble"                         ]
+  "Superman"                [ label="\N\nIUT Valence"                          ] // Puis Ingé Tours
   "Taz"                     [ label="\N\nIUT Grenoble"                         ]
   "TiTang"                  [ label="\N\nIUT Valence"                          ]
   "Toonies"                 [ label="\N\nBTS Valence"                          ]
@@ -393,7 +394,6 @@ digraph ArbreFal {
   "Patfol"                  [ label="\N\n? Paris"                              ] // IF
   "Shrek"                   [ label="\N\n?"                                    ] // Valence ?
   "So Late"                 [ label="\N\n?"                                    ]
-  "Superman"                [ label="\N\n?"                                    ]
   "Taxi"                    [ label="\N\n?"                                    ]
   "Trimen"                  [ label="\N\n?"                                    ]
 
@@ -403,13 +403,38 @@ digraph ArbreFal {
    */
 
   subgraph years {
+
     edge [ meta="year" ]
     node [ shape=plaintext, meta="year" ]
-    "préhistoire" -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004
-                     2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010
-                     2010 -> 2011 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016
-                     2016 -> 2017 -> 2018 -> 2019 -> 2020 -> 2021 -> 2022
-                     2022 -> 2023
+
+    "Préhistoire" -> 1997
+    1997 -> 1998
+    1998 -> 1999
+    1999 -> 2000
+    2000 -> 2001
+    2001 -> 2002
+    2002 -> 2003
+    2003 -> 2004
+    2004 -> 2005
+    2005 -> 2006
+    2006 -> 2007
+    2007 -> 2008
+    2008 -> 2009
+    2009 -> 2010
+    2010 -> 2011
+    2011 -> 2012
+    2012 -> 2013
+    2013 -> 2014
+    2014 -> 2015
+    2015 -> 2016
+    2016 -> 2017
+    2017 -> 2018
+    2018 -> 2019
+    2019 -> 2020
+    2020 -> 2021
+    2021 -> 2022
+    2022 -> 2023
+
     "2004-2" [ style=invisible ]
     "2005-2" [ style=invisible ]
     "2006-2" [ style=invisible ]
@@ -420,7 +445,10 @@ digraph ArbreFal {
     "2011-2" [ style=invisible ]
     "2012-2" [ style=invisible ]
 
-    { rank=source; "préhistoire"; }
+    { rank=source; "Préhistoire"; }
+    subgraph 1997 { rank=same; 1997;
+      "Superman";
+    }
     subgraph 1998 { rank=same; 1998;
       "Sherlock";
     }
