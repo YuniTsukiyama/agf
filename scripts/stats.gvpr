@@ -271,7 +271,7 @@ N [$.meta != "year"] {
   // Stocker la première personne avec des pms manquants
   if ((first_missing_pms == "")
       && (indegreeOf($G, $) < 2)
-      && !$.no_contact)
+      && !$.no_contact && !$.no_other_PM)
   {
     first_missing_pms = $.name;
   }

@@ -157,7 +157,10 @@ digraph ArbreFal {
   "Kalamity"                [ label="\N\nSocio Grenoble"                       ]
   "KetchuPipe"              [ label="\N\nJaune Nice"                           ] // Info-comm Nice/Paris
   "LaVieille"               [ label="\N\nJaune Grenoble"                       ]
-  "Lotus"                   [ label="\N\nPsycho Grenoble"                      ] // 1 seul PM
+  "Lotus" [
+    label="\N\nPsycho Grenoble"
+    no_other_PM=true
+  ]
   "Puget"                   [ label="\N\nJaune Limoges"                        ] // Baptisé IF, Jaune a l'air d'être dominant
   "Napiléon"                [ label="\N\nHistoire Grenoble"                    ]
   "Uno"                     [ label="\N\nJaune Grenoble"                       ]
