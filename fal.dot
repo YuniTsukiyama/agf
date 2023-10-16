@@ -6,7 +6,12 @@ digraph ArbreFal {
 
   ranksep="0.5 equally";
   newrank=true;
-  node [ shape=box, style=striped ]
+  node [
+    shape=box
+    style=striped
+    imagepos="tr"
+    imagescale="false"
+  ]
 
 
   /*
@@ -29,7 +34,10 @@ digraph ArbreFal {
   node [ fillcolor="white", fontcolor=black ]
   "Absinthe"                [ label="\N\nIUT Nice"                             ]
   "Dantach"                 [ label="\N\nBTS Lyon"                             ]
-  "El Général Charette"     [ label="\N\nBTS Nantes"                           ]
+  "El Général Charette" [
+    label="\N\nBTS Nantes"
+    image="resources/GM.png"
+  ]
   "Kinder"                  [ label="\N\nBTS_Optique Grenoble"                 ]
   "La Douve"                [ label="\N\nIUT Valence"                          ]
   "Le Troll"                [ label="\N\nBTS Reims"                            ]
@@ -128,7 +136,10 @@ digraph ArbreFal {
   "Dédé"                    [ label="\N\nIngé Grenoble"                        ]
   "EquiNoX"                 [ label="\N\nIngé Grenoble"                        ]
   "GayTA"                   [ label="\N\nIPP"                                  ]
-  "Gringotts"               [ label="\N\nIngé Grenoble"                        ]
+  "Gringotts" [
+    label="\N\nIngé Grenoble"
+    image="resources/GC.png"
+  ]
   "HP"                      [ label="\N\nIngé Grenoble"                        ]
   "KamoulhOt"               [ label="\N\nIPP"                                  ]
   "Kiss"                    [ label="\N\nIngé Nice"                            ]
@@ -307,7 +318,10 @@ digraph ArbreFal {
   "Auhazard"                [ label="\N\nSciences Paris"                       ]
   "Autoroute"               [ label="\N\nSciences Toulouse"                    ]
   "Bon Scott"               [ label="\N\nSciences Tours"                       ]
-  "Caféine"                 [ label="\N\nSciences Nantes"                      ]
+  "Caféine" [
+    label="\N\nSciences Nantes"
+    image="resources/GM.png"
+  ]
   "Casper"                  [ label="\N\nSciences Angers"                      ]
   "Cerise"                  [ label="\N\nSciences Grenoble"                    ]
   "CraKotte"                [ label="\N\nSciences Grenoble"                    ]
@@ -319,7 +333,10 @@ digraph ArbreFal {
   "Florie"                  [ label="\N\nSciences Grenoble"                    ]
   "Fritoupompri"            [ label="\N\nSciences Paris"                       ]
   "Gala"                    [ label="\N\nSciences Grenoble"                    ]
-  "Geek De Cave"            [ label="\N\nSciences Nantes"                      ]
+  "Geek De Cave" [
+    label="\N\nSciences Nantes"
+    image="resources/GM.png"
+  ]
   "MGEL"                    [ label="\N\nSciences Strasbourg"                  ]
   "Homotractus"             [ label="\N\nSciences Grenoble"                    ]
   "IsotopX"                 [ label="\N\nSciences Valence"                     ]
@@ -338,7 +355,10 @@ digraph ArbreFal {
   "Minorette"               [ label="\N\nSciences Grenoble"                    ]
   "Oxitane"                 [ label="\N\nSciences Grenoble"                    ]
   "Peach"                   [ label="\N\nSciences Strasbourg"                  ]
-  "PingWinX"                [ label="\N\nSciences Grenoble"                    ]
+  "PingWinX" [
+    label="\N\nSciences Grenoble"
+    image="resources/GM.png"
+  ]
   "Pokudex"                 [ label="\N\nSciences Grenoble"                    ]
   "PoudreuZ"                [ label="\N\nSciences Grenoble"                    ]
   "RaidRed"                 [ label="\N\nSciences Angers"                      ]
