@@ -155,6 +155,8 @@ digraph ArbreFal {
   "Catapu(l)te"             [ label="\N\nLettres Nancy"                        ] // Baptisée adm publique ?
   "Clito"                   [ label="\N\nJaune Grenoble"                       ]
   "Epi Boom"                [ label="\N\nPsycho Grenoble"                      ]
+  "Fifine"                  [ label="\N\nPsycho Tours"                         ]
+  "Grand Vincent"           [ label="\N\nPsycho Tours"                         ]
   "Kalamity"                [ label="\N\nSocio Grenoble"                       ]
   "KetchuPipe"              [ label="\N\nJaune Nice"                           ] // Info-comm Nice/Paris
   "LaVieille"               [ label="\N\nJaune Grenoble"                       ]
@@ -304,6 +306,7 @@ digraph ArbreFal {
   "Amibe"                   [ label="\N\nSciences Grenoble"                    ] // Môman
   "Auhazard"                [ label="\N\nSciences Paris"                       ]
   "Autoroute"               [ label="\N\nSciences Toulouse"                    ]
+  "Bon Scott"               [ label="\N\nSciences Tours"                       ]
   "Caféine"                 [ label="\N\nSciences Nantes"                      ]
   "Casper"                  [ label="\N\nSciences Angers"                      ]
   "Cerise"                  [ label="\N\nSciences Grenoble"                    ]
@@ -382,7 +385,6 @@ digraph ArbreFal {
   "Dihast"                  [ label="\N\n? Rennes"                             ]
   "Dorine"                  [ label="\N\n? Paris"                              ]
   "Glasgow 4"               [ label="\N\n?"                                    ] // Probablement Médecine
-  "Grand Vincent"           [ label="\N\n?"                                    ]
   "Guilleu"                 [ label="\N\n? Paris"                              ]
   "JFPLG"                   [ label="\N\n?"                                    ]
   "Jésus"                   [ label="\N\n?"                                    ] // Probablement Médecine
@@ -450,6 +452,7 @@ digraph ArbreFal {
       "Superman";
     }
     subgraph 1998 { rank=same; 1998;
+      "Grand Vincent";
       "Sherlock";
     }
     subgraph 1999 { rank=same; 1999;
@@ -684,6 +687,7 @@ digraph ArbreFal {
   "Bigbisou"                -> "Seb"
   "Bioshop"                 -> "TOM Juan"
   "Bisounours"              -> "Redboule"
+  "Bon Scott"               -> "Grand Vincent"
   "BouillhOt"               -> "AnecdhOt Surprix"
   "Burn"                    -> "PCLF"
   "Béé"                     -> "MessiX"
@@ -737,6 +741,7 @@ digraph ArbreFal {
   "Fanfoué"                 -> "Pipaille"
   "Farinelli"               -> "SNCF"
   "FeuFéeLeeY"              -> "TOM JagerFeeld"
+  "Fifine"                  -> "Grand Vincent"
   "Florie"                  -> "Gala"
   "Freudette"               -> "Hénaff"
   "Frithoven"               -> "Dredi"
