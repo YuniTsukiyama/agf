@@ -222,7 +222,7 @@ digraph ArbreFal {
   "Moustrique"              [ label="\N\nMédecine PO"                          ]
   "Otiste2000"              [ label="\N\nMédecine Créteil"                     ]
   "Paco"                    [ label="\N\nMédecine PO"                          ]
-  "PloukreASS"              [ label="\N\nMédecine KB"                          ]
+  "PLOkreASS"               [ label="\N\nMédecine KB"                          ]
   "Polype"                  [ label="\N\nMédecine PO"                          ]
   "Pucelle"                 [ label="\N\nMédecine PO"                          ]
   "Pumba"                   [ label="\N\nMédecine Nancy"                       ]
@@ -882,6 +882,7 @@ digraph ArbreFal {
   "Oxitane"                 -> "DallAs"
   "Oxitane"                 -> "Worms"
   "PCLF"                    -> "DrHot the Beast"
+  "PLOkreASS"               -> "LaserpitiuMFMF"
   "Pachyboulette"           -> "Père Chartreux"
   "Paco"                    -> "Corps Nichon"
   "Pala"                    -> "DanceFloor"
@@ -898,7 +899,6 @@ digraph ArbreFal {
   "Pinocchio"               -> "Lotus"
   "Pipaille"                -> "VDMKinectX"
   "Pippin"                  -> "Diab Sainthe"
-  "PloukreASS"              -> "LaserpitiuMFMF"
   "Pokudex"                 -> "SaChaRose"
   "Polype"                  -> "Tabasco"
   "PoudreuZ"                -> "Jekyll"
