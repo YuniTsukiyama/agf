@@ -163,9 +163,14 @@ digraph ArbreFal {
   // Lettres, Langues, Sciences humaines et Sciences sociales
 
   node [ fillcolor="gold", fontcolor=black ]
+  "Babs" [
+    label="\N\nLettres Lille"
+    image="resources/GM.png"
+  ]
   "Catapu(l)te"             [ label="\N\nLettres Nancy"                        ] // Baptisée adm publique ?
   "Clito"                   [ label="\N\nJaune Grenoble"                       ]
   "Epi Boom"                [ label="\N\nPsycho Grenoble"                      ]
+  "Ficelle"                 [ label="\N\nHistoire Strasbourg"                  ] // Pas sûr de la filière mais jaune
   "Fifine"                  [ label="\N\nPsycho Tours"                         ]
   "Grand Vincent"           [ label="\N\nPsycho Tours"                         ]
   "Kalamity"                [ label="\N\nSocio Grenoble"                       ]
@@ -181,6 +186,10 @@ digraph ArbreFal {
   "Père Chartreux"          [ label="\N\nJaune Grenoble"                       ] // rma
   "SeintX"                  [ label="\N\nPsycho Grenoble"                      ]
   "YOLOndi"                 [ label="\N\nJaune Paris"                          ]
+  "Zob" [
+    label="\N\nGéographie Lille"
+    image="resources/GM.png"
+  ]
 
 
   // Médecine
@@ -330,6 +339,7 @@ digraph ArbreFal {
   "DanceFloor"              [ label="\N\nSciences Grenoble"                    ]
   "Echantiion"              [ label="\N\nSciences Grenoble"                    ]
   "Farinelli"               [ label="\N\nSciences Montpellier"                 ]
+  "Finger"                  [ label="\N\nSciences Lille"                       ]
   "Florie"                  [ label="\N\nSciences Grenoble"                    ]
   "Fritoupompri"            [ label="\N\nSciences Paris"                       ]
   "Gala"                    [ label="\N\nSciences Grenoble"                    ]
@@ -353,6 +363,7 @@ digraph ArbreFal {
   "Méconium"                [ label="\N\nSciences Grenoble"                    ]
   "Milka"                   [ label="\N\nSciences Toulouse"                    ]
   "Minorette"               [ label="\N\nSciences Grenoble"                    ]
+  "Minus"                   [ label="\N\nSciences Lille"                       ]
   "Oxitane"                 [ label="\N\nSciences Grenoble"                    ]
   "Peach"                   [ label="\N\nSciences Strasbourg"                  ]
   "PingWinX" [
@@ -374,6 +385,10 @@ digraph ArbreFal {
   "Targayte"                [ label="\N\nSciences Angers"                      ]
   "Tatayet"                 [ label="\N\nSciences Paris"                       ]
   "VIL1"                    [ label="\N\nSciences ?"                           ] // Probablement Grenoble
+  "Wang" [
+    label="\N\nSciences Lille"
+    image="resources/GM.png"
+  ]
 
 
   // Cas particuliers
@@ -429,7 +444,19 @@ digraph ArbreFal {
     edge [ meta="year" ]
     node [ shape=plaintext, meta="year" ]
 
-    "Préhistoire" -> 1997
+    "Préhistoire" -> 1985
+    1985 -> 1986
+    1986 -> 1987
+    1987 -> 1988
+    1988 -> 1989
+    1989 -> 1990
+    1990 -> 1991
+    1991 -> 1992
+    1992 -> 1993
+    1993 -> 1994
+    1994 -> 1995
+    1995 -> 1996
+    1996 -> 1997
     1997 -> 1998
     1998 -> 1999
     1999 -> 2000
@@ -468,11 +495,22 @@ digraph ArbreFal {
     "2012-2" [ style=invisible ]
 
     { rank=source; "Préhistoire"; }
+    subgraph 1985 { rank=same; 1985;
+      "Babs";
+    }
+    subgraph 1989 { rank=same; 1989;
+      "Zob";
+    }
+    subgraph 1996 { rank=same; 1996;
+      "Wang";
+    }
     subgraph 1997 { rank=same; 1997;
+      "Finger";
       "Superman";
     }
     subgraph 1998 { rank=same; 1998;
       "Grand Vincent";
+      "Minus";
       "Sherlock";
     }
     subgraph 1999 { rank=same; 1999;
@@ -556,6 +594,7 @@ digraph ArbreFal {
       "Le Blond";
       "Mèche";
       "Méconium";
+      "Peach";
       "Pinocchio";
       "PoudreuZ";
       "SNCF";
@@ -700,6 +739,7 @@ digraph ArbreFal {
   "Aurélie2"                -> "Amibe"
   "Autoroute"               -> "Rondoudou"
   "Avrel"                   -> "Vicking"
+  "Babs"                    -> "Zob"
   "Balthazar"               -> "SaChaRose"
   "Ben(R)"                  -> "Père Chartreux"
   "Bic"                     -> "Mallaury"
@@ -761,7 +801,10 @@ digraph ArbreFal {
   "Fanfoué"                 -> "Pipaille"
   "Farinelli"               -> "SNCF"
   "FeuFéeLeeY"              -> "TOM JagerFeeld"
+  "Ficelle"                 -> "MGEL"
+  "Ficelle"                 -> "Minus"
   "Fifine"                  -> "Grand Vincent"
+  "Finger"                  -> "Minus"
   "Florie"                  -> "Gala"
   "Freudette"               -> "Hénaff"
   "Frithoven"               -> "Dredi"
@@ -858,6 +901,7 @@ digraph ArbreFal {
   "MessiX"                  -> "KaleeSiX"
   "Milka"                   -> "Autoroute"
   "Minorette"               -> "Rainette"
+  "Minus"                   -> "Peach"
   "Molloss"                 -> "GayTA"
   "Molloss"                 -> "Petit Poney Rose"
   "Momo R Ectus"            -> "Casanova"
@@ -977,9 +1021,11 @@ digraph ArbreFal {
   "Vicking"                 -> "KonSanguine"
   "VisseVersa"              -> "PingWinX"
   "Vésuvia"                 -> "Maman Loup"
+  "Wang"                    -> "Finger"
   "Worms"                   -> "Dopler"
   "YOLOndi"                 -> "Meme0TechNik"
   "Zaza"                    -> "Catapu(l)te"
   "Zed"                     -> "Puget"
+  "Zob"                     -> "Wang"
   "aKpouleseau"             -> "CHArette"
 }
