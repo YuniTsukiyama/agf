@@ -123,7 +123,10 @@ digraph ArbreFal {
   // Écoles d'ingénieurs
 
   node [ fillcolor="blue3:black", fontcolor=white ]
-  "#LoupgarhOt"             [ label="\N\nIPP"                                  ]
+  "#LoupgarhOt" [
+    label="\N\nIPP"
+    image="resources/GM.png"
+  ]
   "Absynthe"                [ label="\N\nIngé Nice"                            ]
   "Achess"                  [ label="\N\nIngé Grenoble"                        ] // Un ami
   "Alt F4"                  [ label="\N\nIngé Grenoble"                        ]
@@ -136,22 +139,34 @@ digraph ArbreFal {
   "Durix"                   [ label="\N\nIngé Grenoble"                        ]
   "Dédé"                    [ label="\N\nIngé Grenoble"                        ]
   "EquiNoX"                 [ label="\N\nIngé Grenoble"                        ]
-  "GayTA"                   [ label="\N\nIPP"                                  ]
+  "GayTA" [
+    label="\N\nIPP"
+    image="resources/GC.png"
+  ] // GrosseTenteAriel / GTA
   "Gringotts" [
     label="\N\nIngé Grenoble"
     image="resources/GC.png"
   ]
   "HP"                      [ label="\N\nIngé Grenoble"                        ]
-  "KamoulhOt"               [ label="\N\nIPP"                                  ]
+  "KamoulhOt" [
+    label="\N\nIPP"
+    image="resources/GM.png"
+  ]
   "Kiss"                    [ label="\N\nIngé Nice"                            ]
   "Kosovar"                 [ label="\N\nIngé Grenoble"                        ]
-  "Ludimime"                [ label="\N\nIPP"                                  ]
+  "Ludimime" [
+    label="\N\nIPP"
+    image="resources/GC.png"
+  ]
   "Manus"                   [ label="\N\nIngé Grenoble"                        ]
   "Meme0TechNik"            [ label="\N\nIPP"                                  ]
   "Molloss"                 [ label="\N\nIPP"                                  ]
   "Mr Tout Nu"              [ label="\N\nIngé Grenoble"                        ]
   "Pam"                     [ label="\N\nIngé Grenoble"                        ]
-  "Petit Poney Rose"        [ label="\N\nIPP"                                  ]
+  "Petit Poney Rose" [
+    label="\N\nIPP"
+    image="resources/GM.png"
+  ]
   "Pinocchio"               [ label="\N\nIngé Grenoble"                        ]
   "Pippin"                  [ label="\N\nIngé Grenoble"                        ]
   "Seb"                     [ label="\N\nIngé Grenoble"                        ]
