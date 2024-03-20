@@ -84,6 +84,7 @@ digraph ArbreFal {
   "Astrid"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
   "BouillhOt"               [ label="\N\nDroit Paris"                          ] // Versailles
   "Carole"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
+  "ChagOloup"               [ label="\N\nDroit Versailles"                     ] // Baptisé Versailles ?
   "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ]
   "Fun"                     [ label="\N\nDroit Reims"                          ]
   "Guignol"                 [ label="\N\nDroit Grenoble"                       ] // 1 seule PM
@@ -668,6 +669,7 @@ digraph ArbreFal {
       "SeintX";
     }
     subgraph 2014 { rank=same; 2014;
+      "#LoupgarhOt";
       "Craziiiiii";
       "Valjean";
     }
@@ -759,6 +761,7 @@ digraph ArbreFal {
   "Casper"                  -> "RaidRed"
   "Catapu(l)te"             -> "VisseVersa"
   "Cerise"                  -> "PoudreuZ"
+  "ChagOloup"               -> "#LoupgarhOt"
   "Charles"                 -> "Mayol"
   "Chat Norris"             -> "Cuddly Grrrreuf"
   "Claire"                  -> "Grs Bsx"
@@ -790,6 +793,7 @@ digraph ArbreFal {
   "Dredi"                   -> "Papillax"
   "DucoPute"                -> "RamaDiane PutKassTOM"
   "Durix"                   -> "Bigbisou"
+  "DynamhOt"                -> "#LoupgarhOt"
   "DynamhOt"                -> "DrHot the Beast"
   "Dédé"                    -> "Durix"
   "Echantiion"              -> "Oxitane"
