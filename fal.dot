@@ -84,9 +84,10 @@ digraph ArbreFal {
   "Astrid"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
   "BouillhOt"               [ label="\N\nDroit Paris"                          ] // Versailles
   "Carole"                  [ label="\N\nDroit ?"                              ] // Probablement Grenoble
-  "ChagOloup"               [ label="\N\nDroit Versailles"                     ] // Baptisé Versailles ?
+  "ChagOloup"               [ label="\N\nDroit Paris"                          ] // Versailles
   "Craziiiiii"              [ label="\N\nDroit Grenoble"                       ]
   "Fun"                     [ label="\N\nDroit Reims"                          ]
+  "Guessanscloche"          [ label="\N\nDroit Créteil"                        ]
   "Guignol"                 [ label="\N\nDroit Grenoble"                       ] // 1 seule PM
   "Huggiz"                  [ label="\N\nDroit Grenoble"                       ]
   "Nanou"                   [ label="\N\nDroit Limoges"                        ]
@@ -329,6 +330,7 @@ digraph ArbreFal {
   "Mama"                    [ label="\N\nSage-Femme Grenoble"                  ]
   "Matthieu"                [ label="\N\nSage-Femme Grenoble"                  ]
   "Marie-Laure"             [ label="\N\nSage-Femme Grenoble"                  ]
+  "Nianchatte"              [ label="\N\nSage-Femme Paris"                     ] // Versailles
   "Raph"                    [ label="\N\nSage-Femme Grenoble"                  ]
   "Smile"                   [ label="\N\nSage-Femme Grenoble"                  ]
   "Spip"                    [ label="\N\nSage-Femme Grenoble"                  ]
@@ -679,6 +681,7 @@ digraph ArbreFal {
       "Pippin";
     }
     subgraph 2013 { rank=same; 2013;
+      "ChagOloup";
       "Papillax";
       "RamaDiane PutKassTOM";
       "SeintX";
@@ -842,6 +845,7 @@ digraph ArbreFal {
   "Grand Vincent"           -> "Galoche"
   "Gringotts"               -> "EquiNoX"
   "Grs Bsx"                 -> "Mr Tout Nu"
+  "Guessanscloche"          -> "ChagOloup"
   "Guignol"                 -> "LaVieille"
   "Guillaume"               -> "Romain2"
   "Guilleu"                 -> "Mouillette"
@@ -935,6 +939,7 @@ digraph ArbreFal {
   "Nanou"                   -> "Puget"
   "Napiléon"                -> "Epi Boom"
   "Neutre"                  -> "Nokia"
+  "Nianchatte"              -> "ChagOloup"
   "Nokia"                   -> "YOLOndi"
   "Numerobis"               -> "Mèche"
   "Obvious40"               -> "ThunderStuck"
