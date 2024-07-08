@@ -18,7 +18,6 @@ digraph ArbreFal {
    * Gens
    */
 
-
   // Architecture ; Arts du spectacle ; Arts numériques ; Audiovisuel ;
   // Beaux-Arts, Arts Plastiques
 
@@ -1052,4 +1051,64 @@ digraph ArbreFal {
   "Zed"                     -> "Puget"
   "Zob"                     -> "Wang"
   "aKpouleseau"             -> "CHArette"
+
+  /*
+   * Descendance
+   */
+
+  "AstroRaie" [
+    label="\N\nPréparateur en Pharmacie Natio\n(fillot de <3)"
+    fillcolor="darkgreen"
+    fontcolor=black
+  ]
+  "SthOtouxDouX" -> "AstroRaie"
+
+  "Marine" [
+    label="\N\nImpétrante Géographie Paris"
+    fillcolor="gold"
+    fontcolor=black
+  ]
+  "SthOtouxDouX" -> "Marine"
+
+  "Teaupo alias Bamaco" [
+    label="\N\nJaune Paris"
+    fillcolor="gold"
+    fontcolor=black
+  ]
+  "SthOtouxDouX" -> "Teaupo alias Bamaco"
+
+  "Sybille" [
+    label="\N\nImpétrante Orléans"
+    fillcolor="white"
+    fontcolor=black
+  ]
+  "SthOtouxDouX" -> "Sybille"
+
+  "Gaspard" [
+    label="\N\nImpétrant Ingé Belfort\n(fillot de <3)"
+    fillcolor="blue3:black"
+    fontcolor=white
+  ]
+  "SthOtouxDouX" -> "Gaspard"
+
+  "Rapsodiode" [
+    label="\N\nIngé Grenoble\n(Top N' Top IPP)"
+    fillcolor="blue3:black"
+    fontcolor=white
+  ]
+  "SthOtouxDouX" -> "Rapsodiode"
+
+  "Schlagadosse" [
+    label="\N\nSciences Poitiers\n(Impétrante à la confirmation IF Paris)"
+    fillcolor="darkviolet"
+    fontcolor=black
+  ]
+  "SthOtouxDouX" -> "Schlagadosse"
+
+  "Avril LaVitre" [
+    label="\N\n IF Dev Web Paris\n(51 bit(e) IPP)"
+    fillcolor="blue3"
+    fontcolor=white
+  ]
+  "SthOtouxDouX" -> "Avril LaVitre"
 }
