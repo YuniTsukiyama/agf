@@ -60,7 +60,7 @@ digraph ArbreFal {
 
   node [ fillcolor="darkorchid4", fontcolor=black ]
   "Big Bisous"              [ label="\N\nDentaire Paris"                       ]
-  "Charles"                 [ label="\N\nDentaire Lyon"                        ]
+  "Charles2"                [ label="\N\nDentaire Lyon"                        ]
   "Galopatetik" [
     label="\N\nDentaire Paris"
     no_contact=true
@@ -779,7 +779,7 @@ digraph ArbreFal {
   "Catapu(l)te"             -> "VisseVersa"
   "Cerise"                  -> "PoudreuZ"
   "ChagOloup"               -> "#LoupgarhOt"
-  "Charles"                 -> "Mayol"
+  "Charles2"                -> "Mayol"
   "Chat Norris"             -> "Cuddly Grrrreuf"
   "Claire"                  -> "Grs Bsx"
   "Clito"                   -> "Oupsm"
@@ -1063,12 +1063,12 @@ digraph ArbreFal {
   ]
   "SthOtouxDouX" -> "AstroRaie"
 
-  "Loupiote" [
-    label="\N\nGéographie Paris"
+  "L̶o̶u̶p̶i̶o̶t̶e̶" [
+    label="\N\nG̶é̶o̶g̶r̶a̶p̶h̶i̶e̶ ̶P̶a̶r̶i̶s̶\n(reniée)"
     fillcolor="gold"
     fontcolor=black
   ]
-  "SthOtouxDouX" -> "Loupiote"
+  "SthOtouxDouX" -> "L̶o̶u̶p̶i̶o̶t̶e̶"
 
   "Teaupo alias Bamaco" [
     label="\N\nJaune Paris"
@@ -1119,9 +1119,16 @@ digraph ArbreFal {
   ]
   "SthOtouxDouX" -> "Colin"
 
+  "Charles" [
+    label="\N\nImpétrant IPP"
+    fillcolor="blue3:black"
+    fontcolor=white
+  ]
+  "SthOtouxDouX" -> "Charles"
+
   subgraph 2024 { rank=same; 2024;
     "AstroRaie";
-    "Loupiote";
+    "L̶o̶u̶p̶i̶o̶t̶e̶";
     "MIrAaKsuBlI";
     "Teaupo alias Bamaco";
     "RapsoDIOde";
@@ -1136,6 +1143,7 @@ digraph ArbreFal {
 
   subgraph "Non baptisé(e)" { rank=same; "Non baptisé(e)";
     "Colin";
+    "Charles";
     "Schlagadosse";
   }
   2025->"Non baptisé(e)"
